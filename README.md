@@ -5,6 +5,37 @@
 
 The source code for the apigear landing page.
 
-# Status
+# Build
 
-# Install
+    gir clone git@gitlab.com:xpixels/apigear.io.git
+    cd apigear.io
+    git submodule init && git submodule update
+
+Install hugo, see https://gohugo.io/getting-started/installing/.
+
+on Mac it's normally
+
+    brew install hugo
+
+Preview site:
+
+    hugo server
+
+# Deploy
+
+We use netlify to deploy the site. The site is auto-deployed on each commit to master. So please use branches and merge requests for content.
+
+See https://gallant-goodall-bad756.netlify.com/
+
+Netlify account is at:
+
+    * https://app.netlify.com/teams/jryannel-thpinn8/sites
+
+
+# Hugo Docs
+
+* https://gohugo.io/documentation/
+
+We use the Fresh Theme:
+
+* https://themes.gohugo.io/hugo-fresh/
