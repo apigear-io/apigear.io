@@ -1,0 +1,132 @@
+############################### Banner #################################
+banner:
+  enable : true
+  bg_image : "images/background/banner.png"
+  title : "Digital workflow for API driven software contracts"
+  watermark : "workflow"
+  content : "APIGear enables companies to develop software driven products without friction by providing tools for software contracts using APIs."
+  image : "images/banner/banner-1.png"
+  button:
+    enable : true
+    label : "Signup. It's free"
+    link : "#"
+
+############################## Partners #################################
+partner:
+  enable : false
+  partner_logo:
+  - "images/partner/client-logo-1.png"
+  - "images/partner/client-logo-2.png"
+  - "images/partner/client-logo-3.png"
+  - "images/partner/client-logo-4.png"
+  - "images/partner/client-logo-5.png"
+
+################################ Features ###############################
+feature:
+  enable : true
+  subtitle : "Features"
+  title : "exclusive features"
+  feature_item:
+    # feature item loop
+    - name : "Free Trial"
+      image : "images/feature/feature-1.png"
+      content : "Design your API online"
+      
+    # feature item loop
+    - name : "No Setup"
+      image : "images/feature/feature-2.png"
+      content : "Instant API Mocks"
+
+    # feature item loop
+    - name : "Optimized Data"
+      image : "images/feature/feature-3.png"
+      content : "SDK as a Service"
+
+##################################### About #############################
+about:
+  enable : true
+  about_item:
+    # about item loop
+    - image : "images/about/about-1.png"
+      subtitle : "about apigear"
+      title : "SW Contract Workflow using APIs"
+      content : "APIGear provides a digital workflow for API driven software contracts. 
+      Customers use us to accelerate their software products and remove 
+      frictions from contracting, development and testing. Our SaaS platform 
+      can be used by individuals and small businesses to create immediate revenue 
+      but also licensed by larger software agencies and organisations to 
+      streamline their contracting and APIs offerings."
+      button:
+        enable : true
+        label : "read more"
+        link : "about"
+        
+############################ video ###############################
+promo_video:
+  enable : true
+  video_thumbnail : "images/check-video.png"
+  video_link : "https://www.youtube.com/watch?v=VufDd-QL1c0"
+  subtitle : "Check Video"
+  title : "Define your API today"
+  content : "You do not need to be an expert to define your APIs. We created an easy to use API workflow to define your 
+  software contracts. Our experts and partners place their deep understanding of creating software into our SDK generators for your benefit."
+
+# testimonial
+testimonial:
+  enable : false
+  subtitle : "testimonial"
+  title : "What Our Clients Says?"
+  testimonial_item:
+    # testimonial item loop
+    - name : "Alice kelly"
+      designation : "Happy client"
+      content : Lorem ipsum dolor amet constur adipi sicing elit sed eiusmtempor incid dolore magna aliqu.
+            enim minim veniam quis nostrud exercittion.ullamco laboris nisi ut aliquip excepteur sint occaecat cuida
+            tat nonproident sunt in culpa qui officia deserunt mollit anim id est laborum. sed ut perspiciatis.
+            
+    # testimonial item loop
+    - name : "Alice kelly"
+      designation : "Happy client"
+      content : Lorem ipsum dolor amet constur adipi sicing elit sed eiusmtempor incid dolore magna aliqu.
+            enim minim veniam quis nostrud exercittion.ullamco laboris nisi ut aliquip excepteur sint occaecat cuida
+            tat nonproident sunt in culpa qui officia deserunt mollit anim id est laborum. sed ut perspiciatis.
+            
+    # testimonial item loop
+    - name : "Alice kelly"
+      designation : "Happy client"
+      content : Lorem ipsum dolor amet constur adipi sicing elit sed eiusmtempor incid dolore magna aliqu.
+            enim minim veniam quis nostrud exercittion.ullamco laboris nisi ut aliquip excepteur sint occaecat cuida
+            tat nonproident sunt in culpa qui officia deserunt mollit anim id est laborum. sed ut perspiciatis.
+            
+    # testimonial item loop
+    - name : "Alice kelly"
+      designation : "Happy client"
+      content : Lorem ipsum dolor amet constur adipi sicing elit sed eiusmtempor incid dolore magna aliqu.
+            enim minim veniam quis nostrud exercittion.ullamco laboris nisi ut aliquip excepteur sint occaecat cuida
+            tat nonproident sunt in culpa qui officia deserunt mollit anim id est laborum. sed ut perspiciatis.
+            
+    # testimonial item loop
+    - name : "Alice kelly"
+      designation : "Happy client"
+      content : Lorem ipsum dolor amet constur adipi sicing elit sed eiusmtempor incid dolore magna aliqu.
+            enim minim veniam quis nostrud exercittion.ullamco laboris nisi ut aliquip excepteur sint occaecat cuida
+            tat nonproident sunt in culpa qui officia deserunt mollit anim id est laborum. sed ut perspiciatis.
+
+############################## Download ###########################
+download:
+  enable : false
+  title : "Download Our Whitepaer Today"
+  image : "images/download-mobile-img.jpg"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation."
+  playstore:
+    label : "Download"
+    link : "#"
+  appstore:
+    label : "app store"
+    link : "#"
+
+    
+############################## pricing ###########################
+pricing:
+  enable : false
+  # pricing item comes from "data/*/pricing.yml"
