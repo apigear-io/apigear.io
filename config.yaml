@@ -4,7 +4,7 @@ theme: agico-hugo
 paginate: "6"
 summaryLength: "10"
 disqusShortname: agico
-disableLanguages: []
+disableLanguages: [fr]
 params:
   plugins:
     css:
@@ -67,24 +67,9 @@ menu:
     - name: Service
       URL: service
       weight: 3
-    - name: Blog
-      URL: blog
-      weight: 4
     - name: Contact
       URL: contact
       weight: 5
-    - weight: 6
-      name: Pages
-      hasChildren: true
-    - parent: Pages
-      name: Pricing
-      URL: pricing
-    - parent: Pages
-      name: Career
-      URL: career
-    - parent: Pages
-      name: Team
-      URL: team
   footer:
     - name: Company History
       URL: about
