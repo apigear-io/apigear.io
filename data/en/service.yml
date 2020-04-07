@@ -1,67 +1,46 @@
 ############################### service ##############################
 service:
-  enable : true
-  subtitle : "Services"
-  title : "Our Service Area"
+  enable: true
+  subtitle: "Customer Services"
+  title: "Our Service Offerings"
   service_item:
-    - title : "Networking"
-      icon : "fa-object-ungroup"
-      icon_color : "primary" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
-      content : "Lorem ipsum dolor sit amet consectetur elit sed do"
+    - title: "API Definition Workshop"
+      icon: "fa-comments"
+      icon_color: "primary" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "Define your APIs with confidence. Use our experts to accelerate your API creation."
 
-    - title : "Social Activity"
-      icon : "fa-users"
-      icon_color : "yellow" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
-      content : "Lorem ipsum dolor sit amet consectetur elit sed do"
+    - title: "Developing with APIGear"
+      icon: "fa-object-ungroup"
+      icon_color: "red" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "Practical consideration to unleash the potential using APIGear during software development."
 
-    - title : "Web Design"
-      icon : "fa-desktop"
-      icon_color : "purple" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
-      content : "Lorem ipsum dolor sit amet consectetur elit sed do"
+    - title: "Data Analytics Workshop"
+      icon: "fa-search-plus"
+      icon_color: "cyan" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "Analyse your API data to gain insights into device usage to drive your bussines."
 
-    - title : "Cloud Service"
-      icon : "fa-cloud"
-      icon_color : "cyan" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
-      content : "Lorem ipsum dolor sit amet consectetur elit sed do"
-      
-    - title : "Consulting"
-      icon : "fa-comments"
-      icon_color : "red" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
-      content : "Lorem ipsum dolor sit amet consectetur elit sed do"
-      
-    - title : "SEO Optimization"
-      icon : "fa-search-plus"
-      icon_color : "green" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
-      content : "Lorem ipsum dolor sit amet consectetur elit sed do"
-      
-    - title : "Usability Testing"
-      icon : "fa-line-chart"
-      icon_color : "orange" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
-      content : "Lorem ipsum dolor sit amet consectetur elit sed do"
-      
-    - title : "UX Prototyping"
-      icon : "fa-wpexplorer"
-      icon_color : "blue" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
-      content : "Lorem ipsum dolor sit amet consectetur elit sed do"
-
+    - title: "Hosting APIGear"
+      icon: "fa-cloud"
+      icon_color: "purple" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "We support you to host APIGear on your premise. Get in contact with us."
 
 ############################### Features #####################################
 feature:
-  enable : true
-  subtitle : "fetures"
-  title : "exclusive features"
+  enable: true
+  subtitle: "Create Business Value"
+  title: "Enterprise Features"
   feature_item:
-    - title : "Exclusive Design"
-      icon : "fa-desktop"
-      icon_color : "primary" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
-      content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna."
-      
-    - title : "Easy Customize"
-      icon : "fa-gears"
-      icon_color : "primary" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
-      content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna."
-      
-    - title : "Extreme Security"
-      icon : "fa-shield"
-      icon_color : "primary" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
-      content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna."
+    - title: "Custom Code Generation"
+      icon: "fa-desktop"
+      icon_color: "primary" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "Design a custom code generator to solve your organisation specialized problems."
+
+    - title: "Structuring Recurring Problems"
+      icon: "fa-gears"
+      icon_color: "primary" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "Define custom solutions for new problems by structuring existing proplems."
+
+    - title: "Run your own API Marketplace"
+      icon: "fa-shield"
+      icon_color: "primary" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "APIs fuel todays business. Showcase internally and externally your API solutions."

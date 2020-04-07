@@ -4,7 +4,8 @@ banner:
   bg_image : "images/background/banner.png"
   title : "Digital workflow for API driven software contracts"
   watermark : "workflow"
-  content : "APIGear enables companies to develop software driven products without friction by providing tools for software contracts using APIs."
+  content : "APIGear enables companies to develop software driven products without 
+        friction by providing tools for software contracts using APIs."
   image : "images/banner/banner-1.png"
   button:
     enable : true
@@ -24,8 +25,8 @@ partner:
 ################################ Features ###############################
 feature:
   enable : true
-  subtitle : "Features"
-  title : "exclusive features"
+  subtitle : "Start Now"
+  title : "Workflow for API contracts"
   feature_item:
     # feature item loop
     - name : "Free Trial"
@@ -73,45 +74,34 @@ promo_video:
 
 # testimonial
 testimonial:
-  enable : false
-  subtitle : "testimonial"
-  title : "What Our Clients Says?"
+  enable : true
+  subtitle : "we:interface"
+  title : "What our (fake) customers say?"
   testimonial_item:
     # testimonial item loop
-    - name : "Alice kelly"
-      designation : "Happy client"
-      content : Lorem ipsum dolor amet constur adipi sicing elit sed eiusmtempor incid dolore magna aliqu.
-            enim minim veniam quis nostrud exercittion.ullamco laboris nisi ut aliquip excepteur sint occaecat cuida
-            tat nonproident sunt in culpa qui officia deserunt mollit anim id est laborum. sed ut perspiciatis.
+    - name : "Manufacturer"
+      designation : "API Ownership"
+      content : We where able to deploy our new devices software 30% faster then before. 
+            API contracts allow us to spread the workload more efficient between internal and external teams.
             
     # testimonial item loop
-    - name : "Alice kelly"
-      designation : "Happy client"
-      content : Lorem ipsum dolor amet constur adipi sicing elit sed eiusmtempor incid dolore magna aliqu.
-            enim minim veniam quis nostrud exercittion.ullamco laboris nisi ut aliquip excepteur sint occaecat cuida
-            tat nonproident sunt in culpa qui officia deserunt mollit anim id est laborum. sed ut perspiciatis.
+    - name : "Software Agencies"
+      designation : "New Business"
+      content : With the APIGear platform we are able to create a new business offering for our clients.
+            Our clients love the opportunity to sit down with our experts to define the APIs for the next projects.
             
     # testimonial item loop
-    - name : "Alice kelly"
-      designation : "Happy client"
-      content : Lorem ipsum dolor amet constur adipi sicing elit sed eiusmtempor incid dolore magna aliqu.
-            enim minim veniam quis nostrud exercittion.ullamco laboris nisi ut aliquip excepteur sint occaecat cuida
-            tat nonproident sunt in culpa qui officia deserunt mollit anim id est laborum. sed ut perspiciatis.
+    - name : "Small Business"
+      designation : "Rapid Solutions"
+      content : We are a small devices startup. Creating rapid solutions is essential for our success. 
+            The speed and quality of APIGear definition and generated source code is unmatched.                        
             
     # testimonial item loop
-    - name : "Alice kelly"
-      designation : "Happy client"
-      content : Lorem ipsum dolor amet constur adipi sicing elit sed eiusmtempor incid dolore magna aliqu.
-            enim minim veniam quis nostrud exercittion.ullamco laboris nisi ut aliquip excepteur sint occaecat cuida
-            tat nonproident sunt in culpa qui officia deserunt mollit anim id est laborum. sed ut perspiciatis.
+    - name : "Organisation"
+      designation : "Streamline API"
+      content : We define many APIs internally and externally. Transparency is a key to success for us.
+            APIGear allows us to streamline our API offering and gain a deep understanding of reuse.
             
-    # testimonial item loop
-    - name : "Alice kelly"
-      designation : "Happy client"
-      content : Lorem ipsum dolor amet constur adipi sicing elit sed eiusmtempor incid dolore magna aliqu.
-            enim minim veniam quis nostrud exercittion.ullamco laboris nisi ut aliquip excepteur sint occaecat cuida
-            tat nonproident sunt in culpa qui officia deserunt mollit anim id est laborum. sed ut perspiciatis.
-
 ############################## Download ###########################
 download:
   enable : false
