@@ -1,8 +1,8 @@
-baseURL: https://angry-boyd-d4ee07.netlify.com
+baseURL: https://apigear-landing.netlify.com
 title: APIGear we:interface
 theme: agico-hugo
-paginate: '6'
-summaryLength: '10'
+paginate: "6"
+summaryLength: "10"
 disqusShortname: agico
 disableLanguages: []
 params:
@@ -26,10 +26,10 @@ params:
   logo: images/logo.png
   description: APIGear we:interface
   author: APIGear
-  address: '82211 Herrsching'
-  mobile: ''
+  address: "82211 Herrsching"
+  mobile: ""
   email: info@apigear.io
-  contact_form_action: '#'
+  contact_form_action: "#"
   google_analitycs_id: Your ID
   preloader:
     enable: true
@@ -37,7 +37,7 @@ params:
   navigation_button:
     enable: false
     label: sign up
-    link: '#'
+    link: "#"
   subscription:
     enable: false
     mailchimp_form_action: >-
@@ -47,18 +47,18 @@ params:
     enable: false
     gmap_api: >-
       https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ
-    map_latitude: '51.5223477'
-    map_longitude: '-0.1622023'
+    map_latitude: "51.5223477"
+    map_longitude: "-0.1622023"
     map_marker: images/marker.png
     map_marker_label: APIGear
     map_zoom: 17
   social:
     - icon: fa-linkedin
-      link: 'https://linkedin.com/company/apigear'
+      link: "https://linkedin.com/company/apigear"
     - icon: fa-twitter
-      link: 'https://twitter.com/apigear'
+      link: "https://twitter.com/apigear"
     - icon: fa-github
-      link: 'https://github.com/apigear-io'
+      link: "https://github.com/apigear-io"
 menu:
   main:
     - name: About
@@ -95,7 +95,7 @@ menu:
     - name: Services
       link: service
     - name: Privacy Policy
-      link: '#'
+      link: "#"
 Languages:
   en:
     languageName: En
