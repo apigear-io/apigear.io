@@ -32,7 +32,7 @@ params:
   contact_form_action: "#"
   google_analitycs_id: Your ID
   preloader:
-    enable: true
+    enable: false
     preloader: images/preloader.gif
   navigation_button:
     enable: false
