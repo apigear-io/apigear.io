@@ -3,7 +3,7 @@ title: APIGear we:interface
 theme: agico-hugo
 paginate: "6"
 summaryLength: "10"
-disqusShortname: agico
+disqusShortname: apigear
 disableLanguages: [fr]
 params:
   plugins:
@@ -26,7 +26,7 @@ params:
   logo: images/logo.png
   description: APIGear we:interface
   author: APIGear
-  address: "82211 Herrsching"
+  address: "Munich, Germany"
   mobile: ""
   email: info@apigear.io
   contact_form_action: "#"
@@ -35,9 +35,9 @@ params:
     enable: false
     preloader: images/preloader.gif
   navigation_button:
-    enable: false
+    enable: true
     label: sign up
-    link: "#"
+    link: "https://app.apigear.io"
   subscription:
     enable: false
     mailchimp_form_action: >-
@@ -62,25 +62,21 @@ params:
 menu:
   main:
     - name: About
-      URL: about
+      url: about
+      weight: 5
+    - name: Pricing
+      url: pricing
       weight: 2
     - name: Service
-      URL: service
+      url: service
       weight: 3
-    - name: Contact
-      URL: contact
-      weight: 5
   footer:
-    - name: Company History
-      URL: about
     - name: About us
-      link: about
-    - name: Contact us
-      link: contact
+      url: /about
     - name: Services
-      link: service
+      url: service
     - name: Privacy Policy
-      link: "#"
+      url: "#"
 Languages:
   en:
     languageName: En
@@ -97,17 +93,3 @@ Languages:
       streamline their contracting and APIs offerings.
     copyright: >-
       Copyright &copy; 2020 [APIGear](https://apigear.io)
-  fr:
-    languageName: Fr
-    languageCode: fr-fr
-    contentDir: content/french
-    weight: 2
-    home: Accueil
-    footer_content: >-
-      Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor
-      incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud
-      exercitation ullamaboris nisi ut aliquip.exea commodo consequat. Duis aute
-      irure dolor in reprehenderit.
-    copyright: >-
-      Copyright &copy; 2020 a hugo theme by
-      [themefisher](https://themefisher.com)

@@ -1,38 +1,41 @@
 ########################### Pricing #################################
 pricing:
-  enable: false
-  subtitle: "Pricing table"
-  title: "choose your plan"
+  enable: true
+  subtitle: "Estimate your costs"
+  title: "APIGear offers a great selection of plans."
   pricing_table:
     # pricing table loop
-    - title: "Basic"
-      price: "$49"
-      unit: "month"
-      description: "Best for small individuals"
+    - title: "Free and Hobby"
+      price: "free"
+      unit: "forever"
+      description: "Best for non commercial APIs, such as proof of concepts, MVPs, and personal projects."
       link: "#"
       services:
-        - "Express Service"
-        - "Customs Clearance"
-        - "Time-Critical Services"
+        - "Design public APIs"
+        - "Share API portals"
+        - "Generate GPL code"
 
     # pricing table loop
     - title: "Professional"
-      price: "$79"
+      price: "soon"
       unit: "month"
-      description: "Best for small individuals"
+      description: "Best for business focused, secure APIs and sharing with clients."
       link: "#"
       services:
-        - "Express Service"
-        - "Customs Clearance"
-        - "Time-Critical Services"
+        - "Everything from Hobby, plus ..."
+        - "Design private APIs"
+        - "Securely share API portals (soon)"
+        - "Generate custom licensed code (soon)"
+        - "Access to advanced SDK generators (soon)"
 
     # pricing table loop
-    - title: "Business"
-      price: "$99"
-      unit: "month"
-      description: "Best for small individuals"
+    - title: "Enterprise"
+      price: "soon"
+      unit: "year"
+      description: "Best for corporates to harmonize API landscape and foster reuse"
       link: "#"
       services:
-        - "Express Service"
-        - "Customs Clearance"
-        - "Time-Critical Services"
+        - "Everything from Professsional, plus ..."
+        - "Access to offline code generators (soon)"
+        - "Create custom generators (soon)"
+        - "API marketplace for your organisation (soon)"

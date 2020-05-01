@@ -7,26 +7,31 @@ service:
     - title: "API Definition Workshop"
       icon: "fa-comments"
       icon_color: "primary" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
-      content: "Define your APIs with confidence. Use our experts to accelerate your API creation."
+      content: "Define your APIs with confidence. Use our experts to accelerate your API creation. Accelerate your business."
 
     - title: "Developing with APIGear"
       icon: "fa-object-ungroup"
       icon_color: "red" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
       content: "Practical consideration to unleash the potential using APIGear during software development."
 
-    - title: "Data Analytics Workshop"
+    - title: "Coming Soon"
       icon: "fa-search-plus"
-      icon_color: "cyan" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
-      content: "Analyse your API data to gain insights into device usage to drive your bussines."
-
-    - title: "Hosting APIGear"
-      icon: "fa-cloud"
       icon_color: "purple" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
-      content: "We support you to host APIGear on your premise. Get in contact with us."
+      content: "More service offerings comming soon, such as 'Hosting APIGear', 'Enterprise Services', 'Structuring Problems'"
+
+    # - title: "Data Analytics Workshop"
+    #   icon: "fa-search-plus"
+    #   icon_color: "cyan" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+    #   content: "Analyse your API data to gain insights into device usage to drive your bussines."
+
+    # - title: "Hosting APIGear"
+    #   icon: "fa-cloud"
+    #   icon_color: "purple" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+    #   content: "We support you to host APIGear on your premise. Get in contact with us."
 
 ############################### Features #####################################
 feature:
-  enable: true
+  enable: false
   subtitle: "Create Business Value"
   title: "Enterprise Features"
   feature_item:

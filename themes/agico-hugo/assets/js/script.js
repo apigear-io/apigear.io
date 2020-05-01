@@ -139,6 +139,7 @@
     arrows: false,
     dot: false,
     autoplay: true,
+    autoplaySpeed: 10000,
     responsive: [{
         breakpoint: 1024,
         settings: {

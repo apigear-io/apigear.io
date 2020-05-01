@@ -5,12 +5,12 @@ banner:
   title : "Digital workflow for API driven software contracts"
   watermark : "workflow"
   content : "APIGear enables companies to develop software driven products without 
-        friction by providing tools for software contracts using APIs."
+        friction by providing tools for software contracts using machine readable APIs."
   image : "images/banner/banner-1.png"
   button:
     enable : true
     label : "Signup. It's free"
-    link : "#"
+    link : "https://app.apigear.io"
 
 ############################## Partners #################################
 partner:
@@ -64,7 +64,7 @@ about:
         
 ############################ video ###############################
 promo_video:
-  enable : true
+  enable : false
   video_thumbnail : "images/check-video.png"
   video_link : "https://www.youtube.com/watch?v=VufDd-QL1c0"
   subtitle : "Check Video"
@@ -115,8 +115,8 @@ download:
     label : "app store"
     link : "#"
 
-    
+
 ############################## pricing ###########################
 pricing:
-  enable : false
+  enable : true
   # pricing item comes from "data/*/pricing.yml"
