@@ -10,7 +10,7 @@ banner:
   button:
     enable : true
     label : "Signup. It's free"
-    link : "https://app.apigear.io"
+    link : "https://app.apigear.io/-/register"
 
 ############################## Partners #################################
 partner:

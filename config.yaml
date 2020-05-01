@@ -37,7 +37,7 @@ params:
   navigation_button:
     enable: true
     label: sign up
-    link: "https://app.apigear.io"
+    link: "https://app.apigear.io/-/register"
   subscription:
     enable: false
     mailchimp_form_action: >-
