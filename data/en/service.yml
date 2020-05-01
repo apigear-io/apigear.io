@@ -1,0 +1,51 @@
+############################### service ##############################
+service:
+  enable: true
+  subtitle: "Customer Services"
+  title: "Our Service Offerings"
+  service_item:
+    - title: "API Definition Workshop"
+      icon: "fa-comments"
+      icon_color: "primary" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "Define your APIs with confidence. Use our experts to accelerate your API creation. Accelerate your business."
+
+    - title: "Developing with APIGear"
+      icon: "fa-object-ungroup"
+      icon_color: "red" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "Practical consideration to unleash the potential using APIGear during software development."
+
+    - title: "Coming Soon"
+      icon: "fa-search-plus"
+      icon_color: "purple" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "More service offerings comming soon, such as 'Hosting APIGear', 'Enterprise Services', 'Structuring Problems'"
+
+    # - title: "Data Analytics Workshop"
+    #   icon: "fa-search-plus"
+    #   icon_color: "cyan" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+    #   content: "Analyse your API data to gain insights into device usage to drive your bussines."
+
+    # - title: "Hosting APIGear"
+    #   icon: "fa-cloud"
+    #   icon_color: "purple" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+    #   content: "We support you to host APIGear on your premise. Get in contact with us."
+
+############################### Features #####################################
+feature:
+  enable: false
+  subtitle: "Create Business Value"
+  title: "Enterprise Features"
+  feature_item:
+    - title: "Custom Code Generation"
+      icon: "fa-desktop"
+      icon_color: "primary" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "Design a custom code generator to solve your organisation specialized problems."
+
+    - title: "Structuring Recurring Problems"
+      icon: "fa-gears"
+      icon_color: "primary" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "Define custom solutions for new problems by structuring existing proplems."
+
+    - title: "Run your own API Marketplace"
+      icon: "fa-shield"
+      icon_color: "primary" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "APIs fuel todays business. Showcase internally and externally your API solutions."

@@ -1,34 +1,95 @@
-baseURL: https://apigear.io/
-languageCode: en-us
+baseURL: https://apigear-landing.netlify.com
 title: APIGear we:interface
-theme: hugo-fresh
-googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
-# Disables warnings
-disableKinds:
-- taxonomy
-- taxonomyTerm
-markup:
-  goldmark:
-    renderer:
-      unsafe: true # Allows you to write raw html in your md files
-
+theme: agico-hugo
+paginate: "6"
+summaryLength: "10"
+disqusShortname: apigear
+disableLanguages: [fr]
 params:
-  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
-  openGraph: true
-  # Used as meta data; describe your site to make Google Bots happy 
-  description: 
-  font:
-    name: "Open Sans"
-    sizes: [400,600]
-  hero:
-    # Main hero title
-    title: Software products without frictions
-    # Hero subtitle (optional)
-    subtitle: Digital workflow for software contracts using APIs
-
-    # Button text
-    buttontext: Coming Soon
-    # Where the main hero button links to
-    buttonlink: "#"
-    # Hero image (from static/images/___)
-    image: illustrations/worker.svg
+  plugins:
+    css:
+      - link: plugins/bootstrap/bootstrap.min.css
+      - link: plugins/slick/slick.css
+      - link: plugins/font-awesome/font-awesome.min.css
+      - link: plugins/venobox/venobox.css
+      - link: plugins/aos/aos.css
+    js:
+      - link: plugins/jQuery/jquery.min.js
+      - link: plugins/bootstrap/bootstrap.min.js
+      - link: plugins/slick/slick.min.js
+      - link: plugins/venobox/venobox.min.js
+      - link: plugins/google-map/gmap.js
+      - link: plugins/search/fuse.min.js
+      - link: plugins/search/mark.js
+      - link: plugins/search/search.js
+      - link: plugins/aos/aos.js
+  logo: images/logo.png
+  description: APIGear we:interface
+  author: APIGear
+  address: "Munich, Germany"
+  mobile: ""
+  email: info@apigear.io
+  contact_form_action: "#"
+  google_analitycs_id: Your ID
+  preloader:
+    enable: false
+    preloader: images/preloader.gif
+  navigation_button:
+    enable: true
+    label: sign up
+    link: "https://app.apigear.io"
+  subscription:
+    enable: false
+    mailchimp_form_action: >-
+      https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074
+    mailchimp_form_name: b_463ee871f45d2d93748e77cad_a0a2c6d074
+  map:
+    enable: false
+    gmap_api: >-
+      https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ
+    map_latitude: "51.5223477"
+    map_longitude: "-0.1622023"
+    map_marker: images/marker.png
+    map_marker_label: APIGear
+    map_zoom: 17
+  social:
+    - icon: fa-linkedin
+      link: "https://linkedin.com/company/apigear"
+    - icon: fa-twitter
+      link: "https://twitter.com/apigear"
+    - icon: fa-github
+      link: "https://github.com/apigear-io"
+menu:
+  main:
+    - name: About
+      url: about
+      weight: 5
+    - name: Pricing
+      url: pricing
+      weight: 2
+    - name: Service
+      url: service
+      weight: 3
+  footer:
+    - name: About us
+      url: /about
+    - name: Services
+      url: service
+    - name: Privacy Policy
+      url: "#"
+Languages:
+  en:
+    languageName: En
+    languageCode: en-us
+    contentDir: content/english
+    weight: 1
+    home: Home
+    footer_content: >-
+      APIGear provides a digital workflow for API driven software contracts. 
+      Customers use us to accelerate their software products and remove 
+      frictions from contracting, development and testing. Our SaaS platform 
+      can be used by individuals and small businesses to create immediate revenue 
+      but also licensed by larger software agencies and organisations to 
+      streamline their contracting and APIs offerings.
+    copyright: >-
+      Copyright &copy; 2020 [APIGear](https://apigear.io)

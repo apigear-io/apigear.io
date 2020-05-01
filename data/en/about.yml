@@ -1,0 +1,40 @@
+############################## about ###############################
+about:
+  enable: true
+  video_bg_image: "images/about/about-3.jpg"
+  video_thumbnail: "images/about/about-4.jpg"
+  video_link: "https://www.youtube.com/watch?v=VufDd-QL1c0"
+  subtitle: "About APIGear"
+  title: "Digital workflow for API driven software contracts"
+  content:
+    "APIGear enables companies to develop software driven products without
+    friction by providing tools for software contracts using APIs."
+  button:
+    enable: true
+    label: "Contact Us"
+    link: "contact"
+
+############################### counter #############################
+funfacts:
+  enable: false
+  funfact_item:
+    # funfact item loop
+    - name: "APIs per day"
+      count: "200"
+
+    # funfact item loop
+    - name: "Generated SDKs per Day"
+      count: "150"
+
+    # funfact item loop
+    - name: "Totally users"
+      count: "1500"
+
+    # funfact item loop
+    - name: "Team"
+      count: "5"
+
+########################### Service ################################
+service:
+  enable: true
+  # service item comes from "data/*/service.yml" file
