@@ -36,8 +36,8 @@ params:
     preloader: images/preloader.gif
   navigation_button:
     enable: true
-    label: sign up
-    link: "https://app.apigear.io/-/register"
+    label: sign in
+    link: "https://app.apigear.io/-/login"
   subscription:
     enable: false
     mailchimp_form_action: >-
