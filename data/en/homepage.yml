@@ -9,7 +9,7 @@ banner:
   image : "images/banner/banner-1.png"
   button:
     enable : true
-    label : "Signup. It's free"
+    label : "Sign Up. It's free"
     link : "https://app.apigear.io/-/register"
 
 ############################## Partners #################################
@@ -31,17 +31,21 @@ feature:
     # feature item loop
     - name : "Free Trial"
       image : "images/feature/feature-1.png"
-      content : "Design your API online"
+      title : "Design your API online"
+      content: "API design is a team effort. Not only for developers. Describe your API and validate the design."
       
     # feature item loop
     - name : "No Setup"
       image : "images/feature/feature-2.png"
-      content : "Instant API Mocks"
+      title: "Instant API Simulation"
+      content : "Static and dynamic API simulations. No programming skills required. It just works.
+      No installation required."
 
     # feature item loop
     - name : "Optimized Data"
       image : "images/feature/feature-3.png"
-      content : "SDK as a Service"
+      title : "SDK as a Service"
+      content: "Generate different SDKs from one API description using our SK generator service. Follow up on API changes."
 
 ##################################### About #############################
 about:
