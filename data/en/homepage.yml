@@ -45,7 +45,7 @@ feature:
     - name : "Optimized Data"
       image : "images/feature/feature-3.png"
       title : "SDK as a Service"
-      content: "Generate different SDKs from one API description using our SK generator service. Follow up on API changes."
+      content: "Generate different SDKs from one API description using our SDK generator service. Follow up on API changes."
 
 ##################################### About #############################
 about:
