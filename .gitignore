@@ -1,2 +1,4 @@
 public
 resources
+.nuxt
+node_modules
