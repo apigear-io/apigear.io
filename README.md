@@ -1,41 +1,22 @@
 # apigear.io
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4338fe9f-bd3c-421f-889c-43f6840980ba/deploy-status)](https://app.netlify.com/sites/gallant-goodall-bad756/deploys)
+> ApiGear landing page
 
+## Build Setup
 
-The source code for the apigear landing page.
+``` bash
+# install dependencies
+$ yarn install
 
-# Build
+# serve with hot reload at localhost:3000
+$ yarn dev
 
-    gir clone git@gitlab.com:xpixels/apigear.io.git
-    cd apigear.io
-    git submodule init && git submodule update
+# build for production and launch server
+$ yarn build
+$ yarn start
 
-Install hugo, see https://gohugo.io/getting-started/installing/.
+# generate static project
+$ yarn generate
+```
 
-on Mac it's normally
-
-    brew install hugo
-
-Preview site:
-
-    hugo server
-
-# Deploy
-
-We use netlify to deploy the site. The site is auto-deployed on each commit to master. So please use branches and merge requests for content.
-
-See https://gallant-goodall-bad756.netlify.com/
-
-Netlify account is at:
-
-    * https://app.netlify.com/teams/jryannel-thpinn8/sites
-
-
-# Hugo Docs
-
-* https://gohugo.io/documentation/
-
-We use the Fresh Theme:
-
-* https://themes.gohugo.io/hugo-fresh/
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
