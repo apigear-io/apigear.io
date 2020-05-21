@@ -2,14 +2,14 @@
 banner:
   enable : true
   bg_image : "images/background/banner.png"
-  title : "Digital workflow for API driven software contracts"
+  title : "API Management platform for devices"
   watermark : "workflow"
-  content : "APIGear enables companies to develop software driven products without 
-        friction by providing tools for software contracts using machine readable APIs."
+  content : "ApiGear provides an API driven digital workflow for devices. We enable companies to develop software driven products without 
+        friction by providing a workflow around machine readable APIs."
   image : "images/banner/banner-1.png"
   button:
     enable : true
-    label : "Sign Up. It's free"
+    label : "Sign Up. Give us a try!"
     link : "https://app.apigear.io/-/register"
 
 ############################## Partners #################################
@@ -26,7 +26,7 @@ partner:
 feature:
   enable : true
   subtitle : "Start Now"
-  title : "Workflow for API contracts"
+  title : "Workflow for API driven projects"
   feature_item:
     # feature item loop
     - name : "Free Trial"
@@ -54,13 +54,13 @@ about:
     # about item loop
     - image : "images/about/about-1.png"
       subtitle : "about apigear"
-      title : "SW Contract Workflow using APIs"
-      content : "APIGear provides a digital workflow for API driven software contracts. 
+      title : "Digital workflow for software projects based on APIs"
+      content : "ApiGear provides a digital workflow for API driven software contracts. 
       Customers use us to accelerate their software products and remove 
-      frictions from contracting, development and testing. Our SaaS platform 
+      frictions from contracting, development and testing, integration. Our SaaS platform 
       can be used by individuals and small businesses to create immediate revenue 
       but also licensed by larger software agencies and organisations to 
-      streamline their contracting and APIs offerings."
+      streamline their software development and API offerings."
       button:
         enable : true
         label : "read more"
@@ -80,7 +80,7 @@ promo_video:
 testimonial:
   enable : true
   subtitle : "we:interface"
-  title : "What our (fake) customers say?"
+  title : "What would our customers say?"
   testimonial_item:
     # testimonial item loop
     - name : "Manufacturer"
@@ -91,20 +91,20 @@ testimonial:
     # testimonial item loop
     - name : "Software Agencies"
       designation : "New Business"
-      content : With the APIGear platform we are able to create a new business offering for our clients.
+      content : With the ApiGear platform we are able to create a new business offering for our clients.
             Our clients love the opportunity to sit down with our experts to define the APIs for the next projects.
             
     # testimonial item loop
     - name : "Small Business"
       designation : "Rapid Solutions"
       content : We are a small devices startup. Creating rapid solutions is essential for our success. 
-            The speed and quality of APIGear definition and generated source code is unmatched.                        
+            The speed and quality of ApiGear definition and generated source code is unmatched.                        
             
     # testimonial item loop
     - name : "Organisation"
       designation : "Streamline API"
       content : We define many APIs internally and externally. Transparency is a key to success for us.
-            APIGear allows us to streamline our API offering and gain a deep understanding of reuse.
+            ApiGear allows us to streamline our API offering and gain a deep understanding of reuse.
             
 ############################## Download ###########################
 download:

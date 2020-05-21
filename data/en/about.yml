@@ -4,10 +4,10 @@ about:
   video_bg_image: "images/about/about-3.jpg"
   video_thumbnail: "images/about/about-4.jpg"
   video_link: "https://www.youtube.com/watch?v=VufDd-QL1c0"
-  subtitle: "About APIGear"
+  subtitle: "About ApiGear"
   title: "Digital workflow for API driven software contracts"
   content:
-    "APIGear enables companies to develop software driven products without
+    "ApiGear enables companies to develop software driven products without
     friction by providing tools for software contracts using APIs."
   button:
     enable: true

@@ -2,7 +2,7 @@
 pricing:
   enable: true
   subtitle: "Estimate your costs"
-  title: "APIGear offers a great selection of plans."
+  title: "ApiGear offers a great selection of plans."
   pricing_table:
     # pricing table loop
     - title: "Free and Hobby"
