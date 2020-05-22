@@ -1,75 +1,78 @@
 <template>
-  <v-layout column justify-center align-center>
-    <v-flex xs12 sm8 md6>
-      <div class="text-center">
-        <logo />
-        <vuetify-logo />
-      </div>
-      <v-card>
-        <v-card-title class="headline">
-          Welcome to the Vuetify + Nuxt.js template
-        </v-card-title>
-        <v-card-text>
-          <p>
-            Vuetify is a progressive Material Design component framework for
-            Vue.js. It was designed to empower developers to create amazing
-            applications.
-          </p>
-          <p>
-            For more information on Vuetify, check out the
-            <a href="https://vuetifyjs.com" target="_blank"> documentation </a>.
-          </p>
-          <p>
-            If you have questions, please join the official
-            <a href="https://chat.vuetifyjs.com/" target="_blank" title="chat">
-              discord </a
-            >.
-          </p>
-          <p>
-            Find a bug? Report it on the github
-            <a
-              href="https://github.com/vuetifyjs/vuetify/issues"
-              target="_blank"
-              title="contribute"
-            >
-              issue board </a
-            >.
-          </p>
-          <p>
-            Thank you for developing with Vuetify and I look forward to bringing
-            more exciting features in the future.
-          </p>
-          <div class="text-xs-right">
-            <em><small>&mdash; John Leider</small></em>
-          </div>
-          <hr class="my-3" />
-          <a href="https://nuxtjs.org/" target="_blank">
-            Nuxt Documentation
-          </a>
-          <br />
-          <a href="https://github.com/nuxt/nuxt.js" target="_blank">
-            Nuxt GitHub
-          </a>
-        </v-card-text>
-        <v-card-actions>
-          <v-spacer />
-          <v-btn color="primary" nuxt to="/inspire">
-            Continue
-          </v-btn>
-        </v-card-actions>
-      </v-card>
-    </v-flex>
-  </v-layout>
+  <v-container>
+    <v-row>
+      <v-col>
+        <v-card>
+          <v-card-title><h1>API Management for Devices</h1></v-card-title>
+          <v-divider></v-divider>
+          <v-card-subtitle>
+            Workflow ApiGear provide a new and unique API driven digital
+            workflow for devices. We enable companies to develop software driven
+            driven products without friction by providing a workflow around
+            readable APIs and enhanced device analytics.
+          </v-card-subtitle>
+          <v-card-actions>
+            <v-btn color="info" rounded>Sign Up. Give us a Try!</v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col>
+        <v-card>
+          <v-card-text>
+            <v-row>
+              <v-col>Hello</v-col>
+              <v-col>Hello</v-col>
+              <v-col>Hello</v-col>
+              <v-col>Hello</v-col>
+              <v-col>Hello</v-col>
+            </v-row>
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col>
+        <v-card>
+          <v-card-text>Design</v-card-text>
+        </v-card>
+      </v-col>
+      <v-col>
+        <v-card>
+          <v-card-text>Simulate</v-card-text>
+        </v-card>
+      </v-col>
+      <v-col>
+        <v-card>
+          <v-card-text>SDK</v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col>
+        <v-card>
+          <v-card-subtitle>About ApiGear</v-card-subtitle>
+          <v-card-title><h1>Digital workflow</h1></v-card-title>
+          <v-divider></v-divider>
+          <v-card-subtitle>
+            ApiGear provides a digital workflow for API driven software
+            contracts. Customers use us to accelerate their software products
+            and remove frictions from contracting, development and testing,
+            integration. Our SaaS platform can be used by individuals and small
+            businesses to create immediate revenue but also licensed by larger
+            software agencies and organisations to streamline their software
+            development and API offerings.
+          </v-card-subtitle>
+          <v-card-actions>
+            <v-btn outlined rounded>Read more.</v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-import VuetifyLogo from '~/components/VuetifyLogo.vue'
-
-export default {
-  components: {
-    Logo,
-    VuetifyLogo
-  }
-}
+export default {}
 </script>
