@@ -1,23 +1,24 @@
 <template>
   <v-app>
-    <v-container>
-      <v-app-bar>
-        <v-toolbar-title>ApiGear</v-toolbar-title>
-        <v-spacer></v-spacer>
-        <v-btn text>Home</v-btn>
-        <v-btn text>Pricing</v-btn>
-        <v-btn text>Service</v-btn>
-        <v-btn text>About</v-btn>
-      </v-app-bar>
+    <v-sheet color="blue-grey lighten-5">
+      <AppBar />
       <v-content>
         <nuxt></nuxt>
       </v-content>
-    </v-container>
+    </v-sheet>
+    <Footer />
   </v-app>
 </template>
 
 <script>
+import Footer from '@/components/Footer'
+import AppBar from '@/components/AppBar'
+
 export default {
+  components: {
+    Footer,
+    AppBar
+  },
   data() {
     return {
       clipped: false,
