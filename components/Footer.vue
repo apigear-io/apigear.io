@@ -12,7 +12,7 @@
         {{ link }}
       </v-btn>
       <v-col class="primary py-4 text-center white--text" cols="12">
-        {{ new Date().getFullYear() }} — <strong>Company</strong>
+        {{ new Date().getFullYear() }} — <strong>ApiGear UG Company</strong>
       </v-col>
     </v-row>
   </v-footer>
