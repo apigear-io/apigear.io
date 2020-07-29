@@ -1,12 +1,14 @@
 <template>
   <v-app>
-    <v-sheet color="blue-grey lighten-5">
-      <AppBar />
-      <v-content>
-        <nuxt></nuxt>
-      </v-content>
-    </v-sheet>
-    <Footer />
+    <v-container>
+      <v-sheet color="blue-grey lighten-5">
+        <AppBar />
+        <v-main>
+          <nuxt></nuxt>
+        </v-main>
+      </v-sheet>
+      <Footer />
+    </v-container>
   </v-app>
 </template>
 

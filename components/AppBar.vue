@@ -14,8 +14,9 @@ export default {
   data() {
     return {
       links: [
-        { title: 'Home', to: '/' },
+        { title: 'Use Cases', to: '/cases' },
         { title: 'Pricing', to: '/pricing' },
+        { title: 'Learn', to: '/learn' },
         { title: 'About', to: '/about' }
       ]
     }
