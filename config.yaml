@@ -30,7 +30,6 @@ params:
   mobile: ""
   email: info@apigear.io
   contact_form_action: "#"
-  google_analitycs_id: "UA-166716652-2"
   preloader:
     enable: false
     preloader: images/preloader.gif
