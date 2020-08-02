@@ -24,6 +24,7 @@
   <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
 
   {{ if $.Site.Params.gtm -}}
+  {{ if not (in (.Site.BaseURL | string) "localhost") }}
   {{ "<!-- Google Tag Manager -->" | safeHTML }}
   <!-- https://www.ronaldsvilcins.com/2020/06/12/how-to-add-google-tag-manager-code-to-your-hugo-website/ -->
   <!-- create dataLayer -->
@@ -40,5 +41,6 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','{{ $.Site.Params.gtm }}');</script>
   <!-- End Google Tag Manager -->
+  {{ end }}
   {{ end }}
 </head>
