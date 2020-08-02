@@ -3,6 +3,16 @@
 {{- partial "head.html" . -}}
 
 <body>
+	{{ if $.Site.Params.gtm -}}
+	{{ "<!-- Google Tag Manager -->" | safeHTML }}
+	<link href="https://www.googletagmanager.com" rel="preconnect" crossorigin>
+	<link rel="dns-prefetch" href="https://www.googletagmanager.com">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ $.Site.Params.gtm }}"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	{{- end }}
+
 	{{- partial "preloader.html" . -}}
 	{{- partial "header.html" . -}}
 	{{ if not .IsHome }}

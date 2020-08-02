@@ -30,6 +30,7 @@ params:
   mobile: ""
   email: info@apigear.io
   contact_form_action: "#"
+  gtm: "GTM-KRBL7NF"
   preloader:
     enable: false
     preloader: images/preloader.gif
