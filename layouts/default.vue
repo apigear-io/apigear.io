@@ -1,12 +1,10 @@
 <template>
   <v-app>
     <v-container>
-      <v-sheet color="blue-grey lighten-5">
-        <AppBar />
-        <v-main>
-          <nuxt></nuxt>
-        </v-main>
-      </v-sheet>
+      <AppBar />
+      <v-main class="mt-16">
+        <nuxt></nuxt>
+      </v-main>
       <Footer />
     </v-container>
   </v-app>

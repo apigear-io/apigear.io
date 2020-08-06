@@ -1,0 +1,23 @@
+body:
+  title: Pricing plans
+  description: Supercharge your software team by giving them a clean API process
+  plans:
+    - title: ApiGear Basic
+      description: Suitable for individuals and small teams getting started.
+      price: Free
+      subscription: Limited use only.
+      action: Get Started
+      link: /register
+    - title: ApiGear Teams
+      description: For businesses and organizations needing the unrestricted version.
+      price: $29.95
+      subscription: Per user per month*
+      action: Try for Free
+      link: /register
+  features:
+    - name: Commercial Usage
+      basic: { icon: mdi-close, color: red }
+      business: { icon: mdi-check, color: green }
+    - name: Solution License
+      basic: { text: 'GPL' }
+      business: { text: 'You choose' }

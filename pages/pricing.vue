@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card flat>
     <Pricing></Pricing>
     <FeatureTable></FeatureTable>
   </v-card>

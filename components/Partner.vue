@@ -1,7 +1,7 @@
 <template>
   <v-row>
     <v-col>
-      <v-card>
+      <v-card outlined>
         <v-card-text>
           <v-row>
             <v-col>Partner</v-col>

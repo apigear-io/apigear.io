@@ -1,0 +1,10 @@
+body:
+  - title: Design Your API Online
+    text: API design is a team effort. Not only for developers. Describe your API and validate the design.
+    image: design_notes.svg
+  - title: Instant API Simulation
+    text: Static and dynamic API simulations. No programming skills required. It just works. No installation required.
+    image: process_thoughts.svg
+  - title: SDK As A Service
+    text: Generate different SDKs from one API description using our SDK generator service. Follow up on API changes.
+    image: operating_system.svg
