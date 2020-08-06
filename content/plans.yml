@@ -3,12 +3,14 @@ body:
   description: Supercharge your software team by giving them a clean API process
   plans:
     - title: ApiGear Basic
+      color: green
       description: Suitable for individuals and small teams getting started.
       price: Free
       subscription: Limited use only.
       action: Get Started
       link: /register
     - title: ApiGear Teams
+      color: blue
       description: For businesses and organizations needing the unrestricted version.
       price: $29.95
       subscription: Per user per month*

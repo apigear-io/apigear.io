@@ -1,17 +1,17 @@
 <template>
   <v-row>
-    <v-col>
-      <v-card flat>
+    <v-col cols="12" md="6">
+      <v-card flat class="my-4">
         <v-card-subtitle>About ApiGear</v-card-subtitle>
-        <v-card-title
-          ><h2>{{ body.title }}</h2></v-card-title
-        >
-        <v-divider></v-divider>
+        <v-card-title>{{ body.title }}</v-card-title>
         <v-card-text>{{ body.text }}</v-card-text>
         <v-card-actions>
           <v-btn outlined color="primary">Read More</v-btn>
         </v-card-actions>
       </v-card>
+    </v-col>
+    <v-col cols="12" md="6" align-self="center">
+      <v-img src="team_spirit.svg" aspect-ratio="1.5"></v-img>
     </v-col>
   </v-row>
 </template>
