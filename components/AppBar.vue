@@ -1,6 +1,9 @@
 <template>
-  <v-app-bar dark color="primary">
-    <v-toolbar-title>ApiGear</v-toolbar-title>
+  <v-app-bar elevate-on-scroll fixed color="white">
+    <v-btn text to="/" nuxt>
+      <img class="mr-2" src="apigear.png" height="32" />
+      <b>ApiGear</b>
+    </v-btn>
     <v-spacer></v-spacer>
 
     <v-btn v-for="link in links" :key="link.title" text :to="link.to">
@@ -17,7 +20,8 @@ export default {
         { title: 'Use Cases', to: '/cases' },
         { title: 'Pricing', to: '/pricing' },
         { title: 'Learn', to: '/learn' },
-        { title: 'About', to: '/about' }
+        { title: 'About', to: '/about' },
+        { title: 'Sign In', to: '/about' }
       ]
     }
   }

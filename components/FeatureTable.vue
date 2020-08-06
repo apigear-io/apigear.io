@@ -1,26 +1,46 @@
 <template>
   <v-container>
-    <v-card>
-      <v-card-title>Feature Table</v-card-title>
+    <v-card flat>
+      <v-card-title>Feature Comparision</v-card-title>
       <v-card-text>
         <v-row align="center" justify="center">
-          <v-col cols="8">
+          <v-col cols="10">
             <v-simple-table>
               <template v-slot:default>
                 <thead>
                   <tr>
                     <th>Name</th>
-                    <th>Starter</th>
-                    <th>Professional</th>
-                    <th>Business</th>
+
+                    <th v-for="(plan, i) in plans" :key="i">
+                      {{ plan.title }}
+                    </th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr v-for="item in items" :key="item.name">
-                    <td>{{ item.name }}</td>
-                    <td>{{ item.starter }}</td>
-                    <td>{{ item.pro }}</td>
-                    <td>{{ item.business }}</td>
+                  <tr v-for="(feature, i) in features" :key="i">
+                    <td>{{ feature.name }}</td>
+                    <td>
+                      <span v-if="feature.basic.text">
+                        {{ feature.basic.text }}
+                      </span>
+                      <v-icon
+                        v-if="feature.basic.icon"
+                        :color="feature.basic.color"
+                      >
+                        {{ feature.basic.icon }}
+                      </v-icon>
+                    </td>
+                    <td>
+                      <span v-if="feature.business.text">
+                        {{ feature.business.text }}
+                      </span>
+                      <v-icon
+                        v-if="feature.business.icon"
+                        :color="feature.business.color"
+                      >
+                        {{ feature.business.icon }}
+                      </v-icon>
+                    </td>
                   </tr>
                 </tbody>
               </template>
@@ -34,13 +54,15 @@
 
 <script>
 export default {
+  async fetch() {
+    const { body } = await this.$content('plans').fetch()
+    this.plans = body.plans
+    this.features = body.features
+  },
   data() {
     return {
-      items: [
-        { name: 'Design API', starter: true, pro: true, business: true },
-        { name: 'Simulate API', starter: true, pro: true, business: true },
-        { name: 'SDK as Service', starter: true, pro: true, business: true }
-      ]
+      plans: [],
+      features: []
     }
   }
 }

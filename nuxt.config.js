@@ -44,13 +44,17 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     // Doc: https://github.com/nuxt-community/dotenv-module
-    '@nuxtjs/dotenv'
+    '@nuxtjs/dotenv',
+    // https://content.nuxtjs.org/installation
+    '@nuxt/content'
   ],
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
    */
   axios: {},
+  // https://content.nuxtjs.org/configuration/
+  content: {},
   /*
    ** vuetify module configuration
    ** https://github.com/nuxt-community/vuetify-module
@@ -58,7 +62,18 @@ export default {
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     theme: {
-      light: true
+      light: true,
+      themes: {
+        light: {
+          primary: '#6C63FF'
+          //     secondary: '#673ab7',
+          //     accent: '#ff5722',
+          //     error: '#f44336',
+          //     warning: '#ff9800',
+          //     info: '#00bcd4',
+          //     success: '#4caf50'
+        }
+      }
     }
   },
   /*

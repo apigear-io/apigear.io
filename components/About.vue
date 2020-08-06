@@ -1,17 +1,15 @@
 <template>
   <v-row>
     <v-col>
-      <v-card>
-        <v-card-subtitle>About Subtitle</v-card-subtitle>
-        <v-card-title><h1>About Title</h1></v-card-title>
+      <v-card flat>
+        <v-card-subtitle>About ApiGear</v-card-subtitle>
+        <v-card-title
+          ><h2>{{ body.title }}</h2></v-card-title
+        >
         <v-divider></v-divider>
-        <v-card-text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-          neque alias expedita rerum quas, velit minima atque est quidem. Qui
-          dolores dicta impedit aliquam quis eaque sit provident hic sequi.
-        </v-card-text>
+        <v-card-text>{{ body.text }}</v-card-text>
         <v-card-actions>
-          <v-btn outlined>More</v-btn>
+          <v-btn outlined color="primary">Read More</v-btn>
         </v-card-actions>
       </v-card>
     </v-col>
@@ -19,5 +17,16 @@
 </template>
 
 <script>
-export default {}
+export default {
+  name: 'About',
+  async fetch() {
+    const { body } = await this.$content('about').fetch()
+    this.body = body
+  },
+  data() {
+    return {
+      body: { title: '', text: '' }
+    }
+  }
+}
 </script>

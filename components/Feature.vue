@@ -1,38 +1,27 @@
 <template>
   <v-row>
-    <v-col>
-      <v-card>
-        <v-card-title>Feature Title</v-card-title>
-        <v-card-text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-          neque alias expedita rerum quas, velit minima atque est quidem. Qui
-          dolores dicta impedit aliquam quis eaque sit provident hic sequi.
-        </v-card-text>
-      </v-card>
-    </v-col>
-    <v-col>
-      <v-card>
-        <v-card-title>Feature Title</v-card-title>
-        <v-card-text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-          neque alias expedita rerum quas, velit minima atque est quidem. Qui
-          dolores dicta impedit aliquam quis eaque sit provident hic sequi.
-        </v-card-text>
-      </v-card>
-    </v-col>
-    <v-col>
-      <v-card>
-        <v-card-title>Feature Title</v-card-title>
-        <v-card-text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-          neque alias expedita rerum quas, velit minima atque est quidem. Qui
-          dolores dicta impedit aliquam quis eaque sit provident hic sequi.
-        </v-card-text>
+    <v-col v-for="(feature, i) in features" :key="i">
+      <v-card flat height="100%">
+        <v-card-subtitle>
+          <v-img :src="feature.image" aspect-ratio="1.7"></v-img>
+        </v-card-subtitle>
+        <v-card-title wrap>{{ feature.title }}</v-card-title>
+        <v-card-text>{{ feature.text }}</v-card-text>
       </v-card>
     </v-col>
   </v-row>
 </template>
 
 <script>
-export default {}
+export default {
+  async fetch() {
+    const { body } = await this.$content('features').fetch()
+    this.features = body
+  },
+  data() {
+    return {
+      features: []
+    }
+  }
+}
 </script>
