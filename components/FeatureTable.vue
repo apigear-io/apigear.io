@@ -1,6 +1,6 @@
 <template>
-  <v-container>
-    <v-card flat>
+  <v-card outlined class="my-4 ">
+    <v-alert border="top" colored-border color="primary">
       <v-card-title>Feature Comparision</v-card-title>
       <v-card-text>
         <v-row align="center" justify="center">
@@ -10,7 +10,6 @@
                 <thead>
                   <tr>
                     <th>Name</th>
-
                     <th v-for="(plan, i) in plans" :key="i">
                       {{ plan.title }}
                     </th>
@@ -48,8 +47,8 @@
           </v-col>
         </v-row>
       </v-card-text>
-    </v-card>
-  </v-container>
+    </v-alert>
+  </v-card>
 </template>
 
 <script>

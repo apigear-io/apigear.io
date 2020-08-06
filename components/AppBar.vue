@@ -6,7 +6,13 @@
     </v-btn>
     <v-spacer></v-spacer>
 
-    <v-btn v-for="link in links" :key="link.title" text :to="link.to">
+    <v-btn
+      v-for="link in links"
+      :key="link.title"
+      text
+      :to="link.to"
+      :href="link.href"
+    >
       {{ link.title }}
     </v-btn>
   </v-app-bar>
@@ -19,9 +25,9 @@ export default {
       links: [
         { title: 'Use Cases', to: '/cases' },
         { title: 'Pricing', to: '/pricing' },
-        { title: 'Learn', to: '/learn' },
+        { title: 'Learn', href: 'https://docs.apigear.io/' },
         { title: 'About', to: '/about' },
-        { title: 'Sign In', to: '/about' }
+        { title: 'Sign In', href: 'https://app.apigear.io/-/login' }
       ]
     }
   }
