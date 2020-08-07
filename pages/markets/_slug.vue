@@ -3,7 +3,7 @@
     <v-card-title>{{ slide.title }}</v-card-title>
     <v-img
       class="white--text align-end"
-      height="120px"
+      height="200px"
       :src="slide.image"
       gradient="to top right, rgba(100,115,201,.33), rgba(25,32,72,.7)"
     >
@@ -20,7 +20,7 @@ export default {
   async fetch() {
     const slug = this.$route.params.slug
     console.log('slug', slug)
-    const data = await this.$content('cases', slug).fetch()
+    const data = await this.$content('markets', slug).fetch()
     this.slide = data
   },
   data() {
