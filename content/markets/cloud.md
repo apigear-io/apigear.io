@@ -4,6 +4,10 @@ description: Create your client server solution based on clean communication int
 image: /markets/cloud.jpg
 ---
 
-Automation is happening fast. From industrial and service automation down to everyone's smart homes and devices. More and more devices will have to interoperate reliably and communicate with each other over safe channels – all with those great user experiences people have come to expect from their smart phones.
+We use cloud based solutions everyday and more often than ever. The cloud also moves to devices as mean to extend services. It is often underestimated how much effort it still takes to create a successful cloud solution. Keeping the server API in sync with all the different clients is fairly not easy and different communication patterns are used: GraphQL, HTTP REST, MQTT, WebSockets, HTTP RPC, etc.
 
-What if there was a way out of the jungle of global interoperability standard, to reduce costs and increase performance at the same time? Here's how you show your competition who's boss!
+In the end a user does not really care about which communication is used. Also developers do not really care. They would like to consume an API in their favorite programming language and leave all the communication to the underlying code.
+
+ApiGear allows you to focus on an API, independent of REST, GraphQL or other technologies or even mixed technologies. Our adapter will allow you to adapt your software solutions to any of them and often come already with out of the box adapter for the most common technologies.
+
+We want that you can focus on your problem which is unique to your application, and leave the infrastructure coding to us.

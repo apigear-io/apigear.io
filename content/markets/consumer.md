@@ -1,9 +1,9 @@
 ---
 title: Consumer Electronics
-description: Transform your service and industrial automation strategy
+description: Consumer electronics drive innovation and networked solutions
 image: /markets/consumer.jpg
 ---
 
-Automation is happening fast. From industrial and service automation down to everyone's smart homes and devices. More and more devices will have to interoperate reliably and communicate with each other over safe channels – all with those great user experiences people have come to expect from their smart phones.
+Consumer electronics is a fast growing market with many innovative solutions. Many solutions are extensible using applications written in different technologies. Being present on all different types of consumer electronics can be very daunting. On an electronic device you can use platform services or cloud services.
 
-What if there was a way out of the jungle of global interoperability standard, to reduce costs and increase performance at the same time? Here's how you show your competition who's boss!
+ApiGear allows you to focus on the interface definition of internal software modules but also on your external dependencies and simulate these dependencies as also to understand which calls have happened on these interfaces. As a software developer this allows you to develop your application truely independent from the underlying platform.
