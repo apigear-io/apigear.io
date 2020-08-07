@@ -24,6 +24,8 @@ export default {
     return {
       links: [
         { title: 'Use Cases', to: '/cases' },
+        { title: 'Markets', to: '/markets' },
+        { title: 'Technologies', to: '/technologies' },
         { title: 'Pricing', to: '/pricing' },
         { title: 'Learn', href: 'https://docs.apigear.io/' },
         { title: 'About', to: '/about' },

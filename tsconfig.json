@@ -1,5 +1,5 @@
 {
   "compilerOptions": {
-    "types": ["@nuxt/types", "@nuxt/content"]
+    "types": ["@types/node", "@nuxt/vue-app", "@nuxt/types", "@nuxt/content"]
   }
 }

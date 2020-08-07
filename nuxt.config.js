@@ -24,7 +24,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: ['~/css/main.css'],
   /*
    ** Plugins to load before mounting the App
    */
@@ -54,7 +54,13 @@ export default {
    */
   axios: {},
   // https://content.nuxtjs.org/configuration/
-  content: {},
+  content: {
+    markdown: {
+      prism: {
+        theme: 'prismjs/themes/prism-coy.css'
+      }
+    }
+  },
   /*
    ** vuetify module configuration
    ** https://github.com/nuxt-community/vuetify-module
