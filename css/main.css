@@ -2,3 +2,11 @@
 .v-card__title {
   word-break: normal !important;
 }
+
+.nuxt-content h1 {
+  /* my custom h1 style */
+}
+
+.nuxt-content p {
+  /* my custom h1 style */
+}

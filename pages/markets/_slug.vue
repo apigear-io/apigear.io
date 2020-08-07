@@ -7,7 +7,7 @@
       :src="slide.image"
       gradient="to top right, rgba(100,115,201,.33), rgba(25,32,72,.7)"
     >
-      <v-card-title>{{ slide.description }}</v-card-title>
+      <v-card-text>{{ slide.description }}</v-card-text>
     </v-img>
     <v-card-text>
       <nuxt-content :document="slide" />
