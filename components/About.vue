@@ -1,6 +1,6 @@
 <template>
   <v-row class="my-4">
-    <v-col cols="12" md="6">
+    <v-col cols="12" sm="6">
       <v-card flat>
         <v-card-subtitle>About ApiGear</v-card-subtitle>
         <v-card-title class="text-h5">{{ body.title }}</v-card-title>
@@ -10,7 +10,7 @@
         </v-card-actions>
       </v-card>
     </v-col>
-    <v-col cols="12" md="6" align-self="center">
+    <v-col cols="12" sm="6" align-self="center">
       <v-img src="team_spirit.svg" aspect-ratio="1.5"></v-img>
     </v-col>
   </v-row>
