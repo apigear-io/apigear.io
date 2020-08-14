@@ -2,7 +2,7 @@
   <v-app-bar elevate-on-scroll fixed color="white">
     <v-btn text to="/" nuxt>
       <img class="mr-2" src="apigear.png" height="32" />
-      <b>ApiGearxx</b>
+      <b>ApiGear</b>
     </v-btn>
     <v-spacer></v-spacer>
     <v-toolbar-items class="hidden-sm-and-down">

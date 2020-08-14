@@ -5,7 +5,9 @@
         <v-card-title class="text-h3">{{ body.title }}</v-card-title>
         <v-card-subtitle>{{ body.text }}</v-card-subtitle>
         <v-card-actions>
-          <v-btn color="primary">Sign up</v-btn>
+          <v-btn color="primary" href="https://app.apigear.io/-/register">
+            Sign up
+          </v-btn>
         </v-card-actions>
       </v-card>
     </v-col>
