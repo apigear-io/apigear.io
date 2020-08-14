@@ -23,8 +23,13 @@
         </v-btn>
       </template>
       <v-list>
-        <v-list-item v-for="(link, i) in links" :key="i" :to="link.to">
-          <v-list-tile-title>{{ link.title }}</v-list-tile-title>
+        <v-list-item
+          v-for="(link, i) in links"
+          :key="i"
+          :to="link.to"
+          :href="link.href"
+        >
+          <v-list-item-title>{{ link.title }}</v-list-item-title>
         </v-list-item>
       </v-list>
     </v-menu>

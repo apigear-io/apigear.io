@@ -6,7 +6,7 @@
       <v-card-text>
         <v-container>
           <v-row align="center" justify="center">
-            <v-col v-for="(plan, i) in plans" :key="i" cols="4">
+            <v-col v-for="(plan, i) in plans" :key="i" cols="12" sm="4">
               <v-card class="text-center pb-4">
                 <v-alert border="top" colored-border :color="plan.color">
                   <v-card-title class="justify-center">

@@ -1,6 +1,6 @@
 <template>
-  <v-row>
-    <v-col cols="6">
+  <v-row align="center" justify="center">
+    <v-col cols="12" sm="8">
       <v-card flat class="my-4">
         <v-card-title class="text-h3">{{ body.title }}</v-card-title>
         <v-card-subtitle>{{ body.text }}</v-card-subtitle>
@@ -11,7 +11,7 @@
         </v-card-actions>
       </v-card>
     </v-col>
-    <v-col cols="6">
+    <v-col cols="12" sm="4">
       <v-img src="/problem_solving.svg"></v-img>
     </v-col>
   </v-row>
