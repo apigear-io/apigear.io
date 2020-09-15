@@ -2,24 +2,42 @@ body:
   title: Pricing plans
   description: Supercharge your software team by giving them a clean API process
   plans:
-    - title: ApiGear Basic
+    - title: Free Plan
       color: green
       description: Suitable for individuals and small teams getting started.
       price: Free
       subscription: Limited use only.
       action: Get Started
-      link: /register
-    - title: ApiGear Teams
+      link: https://app.apigear.io/-/register
+    - title: Teams Plan
       color: blue
-      description: For businesses and organizations needing the unrestricted version.
+      description: For businesses and organizations needing privacy and commercial rights.
       price: $29.95
       subscription: Per user per month*
       action: Try for Free
-      link: /register
+      link: https://app.apigear.io/-/register
   features:
-    - name: Commercial Usage
-      basic: { icon: mdi-close, color: red }
+    - name: Design APIs online
+      free: { icon: mdi-check, color: green }
       business: { icon: mdi-check, color: green }
-    - name: Solution License
-      basic: { text: 'GPL' }
-      business: { text: 'You choose' }
+      description: Use our online editor to design your API modules
+    - name: Developer Portal
+      free: { icon: mdi-check, color: green }
+      business: { icon: mdi-check, color: green }
+      description: Share your API documentation across the team
+    - name: Blueprint SDKs
+      free: { icon: mdi-check, color: green }
+      business: { icon: mdi-check, color: green }
+      description: Download a minimal API code or a fully blown project starter
+    - name: SDK Solution License
+      free: { text: "Open Source" }
+      business: { text: "Commercial" }
+      description: Our free plan allows you to create full fledged open source solutions. Use our teams plan when you need private APIs and comercial license
+    - name: Private APIs
+      free: { icon: mdi-close, color: red }
+      business: { icon: mdi-check, color: green }
+      description: API projects can be public, visible to all or private, visible to your team
+    - name: Commercial Usage
+      free: { icon: mdi-close, color: red }
+      business: { icon: mdi-check, color: green }
+      description: The code created from the API mdoules can have different licenses attached, depending on your plan.

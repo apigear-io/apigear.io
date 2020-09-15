@@ -6,7 +6,13 @@
           <v-card-subtitle>{{ body.title }}</v-card-subtitle>
           <v-card-text>{{ body.text }}</v-card-text>
           <v-card-actions>
-            <v-btn v-for="(link, i) in body.social" :key="i" icon small>
+            <v-btn
+              v-for="(link, i) in body.social"
+              :key="i"
+              icon
+              small
+              :href="link.href"
+            >
               <v-icon>mdi-{{ link.name }}</v-icon>
             </v-btn>
           </v-card-actions>

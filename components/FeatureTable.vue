@@ -9,24 +9,34 @@
               <template v-slot:default>
                 <thead>
                   <tr>
-                    <th>Name</th>
-                    <th v-for="(plan, i) in plans" :key="i">
+                    <th class="text-button">Feature</th>
+                    <th v-for="(plan, i) in plans" :key="i" class="text-button">
                       {{ plan.title }}
                     </th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr v-for="(feature, i) in features" :key="i">
-                    <td>{{ feature.name }}</td>
                     <td>
-                      <span v-if="feature.basic.text">
-                        {{ feature.basic.text }}
+                      <v-tooltip bottom>
+                        <template v-slot:activator="{ on, attrs }">
+                          <v-btn small text v-bind="attrs" v-on="on">
+                            {{ feature.name }}
+                            <v-icon right dark>mdi-information-outline</v-icon>
+                          </v-btn>
+                        </template>
+                        {{ feature.description }}
+                      </v-tooltip>
+                    </td>
+                    <td>
+                      <span v-if="feature.free.text">
+                        {{ feature.free.text }}
                       </span>
                       <v-icon
-                        v-if="feature.basic.icon"
-                        :color="feature.basic.color"
+                        v-if="feature.free.icon"
+                        :color="feature.free.color"
                       >
-                        {{ feature.basic.icon }}
+                        {{ feature.free.icon }}
                       </v-icon>
                     </td>
                     <td>

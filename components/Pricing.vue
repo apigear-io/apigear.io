@@ -22,7 +22,9 @@
                 }}</v-card-subtitle>
                 <v-card-actions class="text-center">
                   <v-spacer />
-                  <v-btn color="primary">{{ plan.action }}</v-btn>
+                  <v-btn :href="plan.link" color="primary">{{
+                    plan.action
+                  }}</v-btn>
                   <v-spacer />
                 </v-card-actions>
               </v-card>
