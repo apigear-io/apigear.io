@@ -1,6 +1,6 @@
 ---
-title: API Documentation
-description: Develop your software using a clean architecture approach
+title: API Portal
+description: Sharing the API documentation early creates a common understanding of the software building blocks.
 image: /cases/documentation.svg
 color: red
 ---

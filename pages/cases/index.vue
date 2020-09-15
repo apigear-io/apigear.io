@@ -10,9 +10,12 @@
         <v-row>
           <v-col v-for="(slide, i) in slides" :key="i" cols="12" md="4">
             <v-item>
-              <v-card shaped :to="`/cases/${slide.slug}`">
-                <v-img :src="slide.image" aspect-ratio="1.7"></v-img>
+              <v-card shaped :to="`/cases/${slide.slug}`" height="320">
+                <v-img :src="slide.image" aspect-ratio="3.0"></v-img>
                 <v-card-title>{{ slide.title }}</v-card-title>
+                <v-card-subtitle class="red--text">
+                  {{ slide.subtitle }}
+                </v-card-subtitle>
                 <v-card-text>{{ slide.description }}</v-card-text>
               </v-card>
             </v-item>
@@ -26,7 +29,9 @@
 <script>
 export default {
   async fetch() {
-    const data = await this.$content('cases').fetch()
+    const data = await this.$content('cases')
+      .sortBy('slug')
+      .fetch()
     this.slides = data
   },
   data() {
