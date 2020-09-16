@@ -5,52 +5,26 @@
       <b>ApiGear</b>
     </v-btn>
     <v-spacer></v-spacer>
-    <v-toolbar-items class="hidden-sm-and-down">
-      <v-btn
-        v-for="link in links"
-        :key="link.title"
-        text
-        :to="link.to"
-        :href="link.href"
-      >
-        {{ link.title }}
-      </v-btn>
-    </v-toolbar-items>
+    <AppMenuBar class="hidden-sm-and-down" />
     <v-menu bottom left close-on-click>
       <template v-slot:activator="{ on, attrs }">
         <v-btn icon v-bind="attrs" class="hidden-md-and-up" v-on="on">
           <v-icon>mdi-dots-vertical</v-icon>
         </v-btn>
       </template>
-      <v-list>
-        <v-list-item
-          v-for="(link, i) in links"
-          :key="i"
-          :to="link.to"
-          :href="link.href"
-        >
-          <v-list-item-title>{{ link.title }}</v-list-item-title>
-        </v-list-item>
-      </v-list>
+      <AppMenuList />
     </v-menu>
   </v-app-bar>
 </template>
 
 <script>
+import AppMenuBar from './AppMenuBar'
+import AppMenuList from './AppMenuList'
+
 export default {
-  data() {
-    return {
-      sidebar: false,
-      links: [
-        { title: 'Use Cases', to: '/cases' },
-        { title: 'Markets', to: '/markets' },
-        { title: 'Technologies', to: '/technologies' },
-        { title: 'Pricing', to: '/pricing' },
-        { title: 'Learn', href: 'https://docs.apigear.io/' },
-        { title: 'About', to: '/about' },
-        { title: 'Sign In', href: 'https://app.apigear.io/-/login' }
-      ]
-    }
+  components: {
+    AppMenuBar,
+    AppMenuList
   }
 }
 </script>

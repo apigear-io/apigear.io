@@ -38,9 +38,11 @@
               }}</v-list-item-subtitle>
             </v-list-item>
             <v-list-item>
-              <v-list-item-subtitle>{{
-                body.contact.email
-              }}</v-list-item-subtitle>
+              <v-list-item-subtitle
+                ><a :href="`mailto:${body.contact.email}`">{{
+                  body.contact.email
+                }}</a></v-list-item-subtitle
+              >
             </v-list-item>
           </v-list>
         </v-card>
