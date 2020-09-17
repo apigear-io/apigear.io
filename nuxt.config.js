@@ -46,8 +46,17 @@ export default {
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
     // https://content.nuxtjs.org/installation
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxtjs/gtm'
   ],
+  /*
+   ** Google Tag Maanger configuration
+   ** See https://github.com/nuxt-community/gtm-module
+   */
+  gtm: {
+    id: 'GTM-KRBL7NF',
+    pageTracking: true
+  },
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
