@@ -47,7 +47,9 @@ export default {
     '@nuxtjs/dotenv',
     // https://content.nuxtjs.org/installation
     '@nuxt/content',
-    '@nuxtjs/gtm'
+    '@nuxtjs/gtm',
+    /* https://github.com/nuxt-community/sitemap-module */
+    '@nuxtjs/sitemap'
   ],
   /*
    ** Google Tag Maanger configuration
@@ -56,6 +58,10 @@ export default {
   gtm: {
     id: 'GTM-KRBL7NF',
     pageTracking: true
+  },
+  sitemap: {
+    hostname: 'https://apigear.io',
+    gzip: true
   },
   /*
    ** Axios module configuration
