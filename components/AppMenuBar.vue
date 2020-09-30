@@ -57,6 +57,10 @@ export default {
           title: 'Learn',
           children: [
             { title: 'Docs', href: 'https://docs.apigear.io' },
+            {
+              title: 'Community',
+              href: 'https://gitter.im/apigear-io/community'
+            },
             { title: 'Blog', href: 'https://medium.com/apigear' }
           ]
         },
