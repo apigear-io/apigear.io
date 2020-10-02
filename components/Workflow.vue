@@ -2,7 +2,6 @@
   <v-row class="my-4">
     <v-col cols="12" sm="6">
       <v-card flat>
-        <!-- <v-card-subtitle class="text-subtitle-1">About ApiGear</v-card-subtitle> -->
         <v-card-title class="text-h5">{{ body.title }}</v-card-title>
         <v-card-text>{{ body.text }}</v-card-text>
         <v-card-actions>
@@ -18,17 +17,17 @@
         </v-card-actions>
       </v-card>
     </v-col>
-    <v-col cols="1" sm="1" align-self="center">
-      <v-img src="apigear.png" aspect-ratio="1"></v-img>
+    <v-col cols="10" sm="5" align-self="center">
+      <v-img src="devcycle_43_light.svg" aspect-ratio="1.5"></v-img>
     </v-col>
   </v-row>
 </template>
 
 <script>
 export default {
-  name: 'About',
+  name: 'Workflow',
   async fetch() {
-    const { body } = await this.$content('about').fetch()
+    const { body } = await this.$content('workflow').fetch()
     this.body = body
   },
   data() {
