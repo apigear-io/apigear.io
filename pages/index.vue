@@ -4,7 +4,7 @@
     <!-- <Partner /> -->
     <Feature />
     <Playground />
-    <About />
+    <Workflow />
     <!-- <Counter />
     <Testimonial /> -->
   </v-container>
@@ -14,7 +14,7 @@
 import Banner from '@/components/Banner'
 // import Partner from '@/components/Partner'
 import Feature from '@/components/Feature'
-import About from '@/components/About'
+import Workflow from '@/components/Workflow'
 // import Counter from '@/components/Counter'
 // import Testimonial from '@/components/Testimonial'
 export default {
@@ -22,7 +22,7 @@ export default {
     Banner,
     // Partner,
     Feature,
-    About
+    Workflow
     // Counter,
     // Testimonial
   }
