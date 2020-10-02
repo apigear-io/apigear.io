@@ -11,15 +11,15 @@
               outlined
               small
               color="primary"
-              href="https://docs.apigear.io/guide/start"
+              href="https://docs.apigear.io/"
               >Read More</v-btn
             >
           </v-btn-toggle>
         </v-card-actions>
       </v-card>
     </v-col>
-    <v-col cols="12" sm="6" align-self="center">
-      <v-img src="team_spirit.svg" aspect-ratio="1.5"></v-img>
+    <v-col cols="10" sm="5" align-self="center">
+      <v-img src="devcycle_43_light.svg" aspect-ratio="1.5"></v-img>
     </v-col>
   </v-row>
 </template>
