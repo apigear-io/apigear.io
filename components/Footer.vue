@@ -23,7 +23,11 @@
           <v-card-subtitle>Quick Links</v-card-subtitle>
           <v-list dense color="transparent">
             <v-list-item v-for="(link, i) in body.links" :key="i">
-              <v-list-item-subtitle>{{ link.title }}</v-list-item-subtitle>
+              <v-list-item-subtitle>
+                <v-btn depressed x-small :href="link.href">
+                  {{ link.title }}
+                </v-btn>
+              </v-list-item-subtitle>
             </v-list-item>
           </v-list>
         </v-card>
