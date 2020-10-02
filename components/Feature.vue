@@ -9,9 +9,9 @@
         <v-card-text>{{ feature.text }}</v-card-text>
         <v-card-actions>
           <v-btn-toggle>
-            <v-btn outlined small color="primary" :href="feature.href"
-              >More...</v-btn
-            >
+            <v-btn outlined small color="primary" :href="feature.href">
+              {{ feature.linktitle }}
+            </v-btn>
           </v-btn-toggle>
         </v-card-actions>
       </v-card>

@@ -15,7 +15,6 @@ import Banner from '@/components/Banner'
 // import Partner from '@/components/Partner'
 import Feature from '@/components/Feature'
 import About from '@/components/About'
-import Playground from '@/components/Playground'
 // import Counter from '@/components/Counter'
 // import Testimonial from '@/components/Testimonial'
 export default {
@@ -23,10 +22,9 @@ export default {
     Banner,
     // Partner,
     Feature,
-    About,
+    About
     // Counter,
     // Testimonial
-    Playground
   }
 }
 </script>
