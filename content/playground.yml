@@ -1,6 +1,0 @@
-body:
-  title: What is ObjectAPI
-  text: >
-    Object API describes the communication between objects and its boundaries.
-    It allows teams to sketch and arrange software modules, before starting to write code.
-    Visit our playground to try it out.

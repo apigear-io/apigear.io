@@ -1,13 +1,16 @@
 body:
   - title: Design Your API Online
-    text: API design is a team effort. Not only for developers. Describe your API and validate the design.
-    image: design_notes.svg
-    href: https://docs.apigear.io/guide/start
+    text: API design is a team effort. Not only for developers. Describe your API and validate the design. The Object API allows teams to sketch and arrange software modules, before starting to write code. It describes the communication between objects and its boundaries. Visit our playground to try it out.
+    image: features/playground.png
+    href: https://app.apigear.io/-/demos/playground
+    linktitle: Try it!
   - title: Developer Portal
     text: Always up to sync documentation of your API for your team and consumers of your API.
-    image: process_thoughts.svg
+    image: design_notes.svg
     href: https://docs.apigear.io/guide/start
+    linktitle: More...
   - title: SDK As A Service
     text: Generate different SDKs from one API description using our SDK generator service. Follow up on API changes.
     image: operating_system.svg
     href: https://docs.apigear.io/sdk/intro/
+    linktitle: More...
