@@ -46,12 +46,12 @@
         <v-container fluid>
           <v-row dense>
             <v-col v-for="member in body.team" :key="member.name" :cols="2">
-              <v-card max-width="250">
+              <v-card max-width="250" min-width="250">
                 <v-img
                   :src="member.src"
                   class="white--text align-end"
                   gradient="to bottom, rgba(0,0,0,.0), rgba(0,0,0,.3)"
-                  width="300px"
+                  width="250px"
                 >
                   <v-card-title v-text="member.name"></v-card-title>
                 </v-img>
