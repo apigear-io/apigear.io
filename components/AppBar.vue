@@ -6,14 +6,7 @@
     </v-btn>
     <v-spacer></v-spacer>
     <AppMenuBar class="hidden-sm-and-down" />
-    <v-menu bottom left close-on-click>
-      <template v-slot:activator="{ on, attrs }">
-        <v-btn icon v-bind="attrs" class="hidden-md-and-up" v-on="on">
-          <v-icon>mdi-dots-vertical</v-icon>
-        </v-btn>
-      </template>
-      <AppMenuList />
-    </v-menu>
+    <AppMenuList class="hidden-md-and-up" />
   </v-app-bar>
 </template>
 
