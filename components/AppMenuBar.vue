@@ -20,6 +20,7 @@
           dense
           :to="child.to"
           :href="child.href"
+          target="blank"
         >
           <v-list-item-title>{{ child.title }}</v-list-item-title>
         </v-list-item>

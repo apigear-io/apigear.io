@@ -30,6 +30,7 @@
               icon
               small
               :href="link.href"
+              target="blank"
             >
               <v-icon>mdi-{{ link.name }}</v-icon>
             </v-btn>

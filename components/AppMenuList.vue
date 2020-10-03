@@ -5,6 +5,7 @@
       :key="i"
       :to="link.to"
       :href="link.href"
+      target="blank"
     >
       <v-list-item-title>{{ link.title }}</v-list-item-title>
     </v-list-item>

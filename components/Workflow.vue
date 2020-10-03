@@ -11,6 +11,7 @@
               small
               color="primary"
               href="https://docs.apigear.io/"
+              target="blank"
               >Read More</v-btn
             >
           </v-btn-toggle>
