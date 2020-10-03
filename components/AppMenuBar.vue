@@ -45,7 +45,7 @@
 
 <script>
 export default {
-  name: 'AppMenu',
+  name: 'AppMenuBar',
   data() {
     return {
       items: [
