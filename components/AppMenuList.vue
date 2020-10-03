@@ -28,7 +28,7 @@ export default {
         },
         { title: 'Docs', href: 'https://docs.apigear.io' },
         { title: 'Blog', href: 'https://medium.com/apigear' },
-        { title: 'About', to: '/about' },
+        { title: 'Team', to: '/about' },
         { title: 'Login', href: 'https://app.apigear.io/-/login' },
         { title: 'Register', href: 'https://app.apigear.io/-/register' }
       ]
