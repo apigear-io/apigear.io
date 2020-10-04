@@ -1,9 +1,12 @@
 <template>
   <v-footer dark>
-    <v-row>
+    <v-row no-gutters>
       <v-col cols="6">
         <v-card outlined dark color="transparent">
-          <v-card-subtitle>{{ body.title }}</v-card-subtitle>
+          <v-card-subtitle
+            >(c) {{ new Date().getFullYear() }} —
+            <strong>{{ body.title }}</strong></v-card-subtitle
+          >
           <v-card-text>{{ body.text }}</v-card-text>
           <v-card-actions>
             <v-btn
@@ -18,7 +21,7 @@
           </v-card-actions>
         </v-card>
       </v-col>
-      <v-col cols="3">
+      <v-col md="auto">
         <v-card outlined dark color="transparent">
           <v-card-subtitle>Quick Links</v-card-subtitle>
           <v-list dense color="transparent">
@@ -32,7 +35,8 @@
           </v-list>
         </v-card>
       </v-col>
-      <v-col cols="3">
+      <v-spacer></v-spacer>
+      <v-col lg="2">
         <v-card flat dark color="transparent">
           <v-card-subtitle>Contact Info</v-card-subtitle>
           <v-list dense color="transparent">
@@ -49,15 +53,6 @@
               >
             </v-list-item>
           </v-list>
-        </v-card>
-      </v-col>
-    </v-row>
-    <v-row>
-      <v-col cols="12">
-        <v-card flat dark color="transparent">
-          <v-card-subtitle>
-            (c) {{ new Date().getFullYear() }} — <strong>ApiGear UG</strong>
-          </v-card-subtitle>
         </v-card>
       </v-col>
     </v-row>
