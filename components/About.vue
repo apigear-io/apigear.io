@@ -3,8 +3,8 @@
     <v-row>
       <v-col cols="12" sm="6">
         <v-card flat>
-          <v-card-title class="text-h5">{{ body.title }}</v-card-title>
-          <v-card-text>{{ body.text }}</v-card-text>
+          <v-card-title class="text-h4">{{ body.title }}</v-card-title>
+          <v-card-text class="text-body-1">{{ body.text }}</v-card-text>
           <v-card-actions>
             <v-btn-toggle>
               <v-btn
@@ -38,33 +38,34 @@
         </v-card>
       </v-col>
     </v-row>
-    <v-card flat>
-      <v-card-title class="text-h5">The team</v-card-title>
-      <v-row justify="center">
-        <v-col v-for="member in body.team" :key="member.name" md="4">
-          <v-card max-width="250" min-width="250">
-            <v-img
-              :src="member.src"
-              class="white--text align-end"
-              gradient="to bottom, rgba(0,0,0,.0), rgba(0,0,0,.3)"
-              width="250px"
-            >
+    <v-card flat class="mt-4">
+      <v-card-title class="text-h4">Meet the team</v-card-title>
+      <v-container>
+        <v-row justify="center">
+          <v-col v-for="member in body.team" :key="member.name" md="4">
+            <v-card min-height="60vh">
+              <v-card-subtitle class="text-center">
+                <v-avatar size="160">
+                  <v-img :src="member.src"> </v-img>
+                </v-avatar>
+              </v-card-subtitle>
               <v-card-title v-text="member.name"></v-card-title>
-            </v-img>
-            <v-card-actions>
-              <v-card-subtitle>{{ member.role }}</v-card-subtitle>
-              <v-spacer></v-spacer>
-              <v-btn icon target="blank" :href="member.linkedin">
-                <v-icon>mdi-linkedin</v-icon>
-              </v-btn>
-            </v-card-actions>
-            <v-card-text class="justify-left">
-              <b>Why ApiGear?</b><br />
-              {{ member.motivation }}
-            </v-card-text>
-          </v-card>
-        </v-col>
-      </v-row>
+              <v-card-subtitle
+                >{{ member.role }}
+                <v-btn icon target="blank" :href="member.linkedin">
+                  <v-icon right>mdi-linkedin</v-icon>
+                </v-btn>
+              </v-card-subtitle>
+              <v-card-subtitle class="text-subtitle-2">
+                Why ApiGear?
+              </v-card-subtitle>
+              <v-card-text>
+                {{ member.motivation }}
+              </v-card-text>
+            </v-card>
+          </v-col>
+        </v-row>
+      </v-container>
     </v-card>
   </v-container>
 </template>
