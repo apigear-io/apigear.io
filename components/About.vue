@@ -21,7 +21,7 @@
       </v-col>
       <v-col align="center" justify="center">
         <v-card flat>
-          <v-img src="apigear.png" width="100px" aspect-ratio="1"></v-img>
+          <v-img src="/apigear.png" width="100px" aspect-ratio="1"></v-img>
           <v-card-subtitle>Follow us on</v-card-subtitle>
           <v-card-actions class="justify-center">
             <v-btn
