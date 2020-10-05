@@ -27,13 +27,10 @@
 
 <script>
 export default {
-  async fetch() {
-    const { body } = await this.$content('features').fetch()
-    this.features = body
-  },
-  data() {
-    return {
-      features: []
+  props: {
+    features: {
+      type: Array,
+      required: true
     }
   }
 }

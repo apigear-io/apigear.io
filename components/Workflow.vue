@@ -27,13 +27,10 @@
 <script>
 export default {
   name: 'Workflow',
-  async fetch() {
-    const { body } = await this.$content('workflow').fetch()
-    this.body = body
-  },
-  data() {
-    return {
-      body: { title: '', text: '' }
+  props: {
+    body: {
+      type: Object,
+      required: true
     }
   }
 }

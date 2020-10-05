@@ -73,13 +73,10 @@
 <script>
 export default {
   name: 'About',
-  async fetch() {
-    const { body } = await this.$content('about').fetch()
-    this.body = body
-  },
-  data() {
-    return {
-      body: { title: '', text: '' }
+  props: {
+    body: {
+      type: Object,
+      required: true
     }
   }
 }

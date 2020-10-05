@@ -25,13 +25,10 @@
 
 <script>
 export default {
-  async fetch() {
-    const data = await this.$content('markets').fetch()
-    this.slides = data
-  },
-  data() {
+  async asyncData({ $content }) {
+    const slides = await $content('markets').fetch()
     return {
-      slides: []
+      slides
     }
   }
 }
