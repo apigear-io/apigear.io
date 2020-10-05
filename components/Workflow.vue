@@ -19,7 +19,7 @@
       </v-card>
     </v-col>
     <v-col cols="10" sm="5" align-self="center">
-      <v-img src="devcycle_43_light.svg" aspect-ratio="1.5"></v-img>
+      <v-img src="/devcycle_43_light.svg" aspect-ratio="1.5"></v-img>
     </v-col>
   </v-row>
 </template>
