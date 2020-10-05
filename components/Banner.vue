@@ -20,13 +20,16 @@
 
 <script>
 export default {
-  async fetch() {
-    const { body } = await this.$content('banner').fetch()
-    this.body = body
-  },
-  data() {
-    return {
-      body: { title: '', text: '' }
+  name: 'Banner',
+  props: {
+    body: {
+      type: Object,
+      default() {
+        return {
+          title: 'TITLE',
+          text: 'TEXT'
+        }
+      }
     }
   }
 }

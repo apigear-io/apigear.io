@@ -1,7 +1,7 @@
 <template>
   <v-app-bar elevate-on-scroll fixed color="white">
     <v-btn text to="/" nuxt>
-      <img class="mr-2" src="apigear.png" height="32" />
+      <img class="mr-2" src="/apigear.png" height="32" />
       <b>ApiGear</b>
     </v-btn>
     <v-spacer></v-spacer>

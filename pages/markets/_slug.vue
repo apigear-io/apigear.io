@@ -17,18 +17,11 @@
 
 <script>
 export default {
-  async fetch() {
-    const slug = this.$route.params.slug
-    console.log('slug', slug)
-    const data = await this.$content('markets', slug).fetch()
-    this.slide = data
-  },
-  data() {
+  async asyncData({ params, $content }) {
+    const slug = params.slug
+    const slide = await $content('markets', slug).fetch()
     return {
-      slide: {
-        title: '',
-        description: ''
-      }
+      slide
     }
   }
 }

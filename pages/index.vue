@@ -1,30 +1,31 @@
 <template>
   <v-container>
-    <Banner />
-    <!-- <Partner /> -->
-    <Feature />
-    <Playground />
-    <Workflow />
-    <!-- <Counter />
-    <Testimonial /> -->
+    <Banner :body="banner" />
+    <Feature :features="features" />
+    <Workflow :body="workflow" />
   </v-container>
 </template>
 
 <script>
 import Banner from '@/components/Banner'
-// import Partner from '@/components/Partner'
 import Feature from '@/components/Feature'
 import Workflow from '@/components/Workflow'
-// import Counter from '@/components/Counter'
-// import Testimonial from '@/components/Testimonial'
+
 export default {
   components: {
     Banner,
-    // Partner,
     Feature,
     Workflow
-    // Counter,
-    // Testimonial
+  },
+  async asyncData({ $content }) {
+    const banner = await $content('banner').fetch()
+    const features = await $content('features').fetch()
+    const workflow = await $content('workflow').fetch()
+    return {
+      banner: banner.body,
+      features: features.body,
+      workflow: workflow.body
+    }
   }
 }
 </script>

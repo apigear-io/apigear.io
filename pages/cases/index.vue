@@ -28,15 +28,12 @@
 
 <script>
 export default {
-  async fetch() {
-    const data = await this.$content('cases')
+  async asyncData({ $content }) {
+    const slides = await $content('cases')
       .sortBy('slug')
       .fetch()
-    this.slides = data
-  },
-  data() {
     return {
-      slides: []
+      slides
     }
   }
 }

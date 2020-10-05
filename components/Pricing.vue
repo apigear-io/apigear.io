@@ -38,18 +38,18 @@
 
 <script>
 export default {
-  async fetch() {
-    const { body } = await this.$content('plans').fetch()
-    console.log('body.plans', body)
-    this.plans = body.plans
-    this.title = body.title
-    this.description = body.description
-  },
-  data() {
-    return {
-      title: '',
-      description: '',
-      plans: []
+  props: {
+    plans: {
+      type: Object,
+      required: true
+    },
+    title: {
+      type: String,
+      required: true
+    },
+    description: {
+      type: String,
+      required: true
     }
   }
 }
