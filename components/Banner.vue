@@ -1,6 +1,6 @@
 <template>
   <v-row align="center" justify="center">
-    <v-col cols="12" sm="6">
+    <v-col cols="12" md="6">
       <v-card flat class="my-4">
         <v-card-title class="text-h3">{{ body.title }}</v-card-title>
         <v-card-subtitle class="text-subtitle-1 my-4">{{
@@ -13,7 +13,7 @@
         </v-card-actions>
       </v-card>
     </v-col>
-    <v-col cols="12" sm="6">
+    <v-col cols="12" md="6">
       <v-card flat>
         <v-card-text class="text-center">
           <iframe
