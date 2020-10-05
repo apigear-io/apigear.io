@@ -32,6 +32,11 @@
           </v-row>
         </v-container>
       </v-card-text>
+      <v-card-text>
+        * We currently only offer a free service. If you like the commerical
+        version, please contact us via
+        <a href="mailto:info@apigear.io">info@apigear.io</a>
+      </v-card-text>
     </v-alert>
   </v-card>
 </template>
