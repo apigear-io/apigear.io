@@ -13,8 +13,8 @@ body:
       color: blue
       description: For businesses and organizations needing privacy and commercial rights.
       price: $29.95
-      subscription: Per user per month*
-      action: Try for Free
+      subscription: Per user per month.
+      action: Try for Free*
       link: https://app.apigear.io/-/register
   features:
     - name: Design APIs online
