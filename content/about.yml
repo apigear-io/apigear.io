@@ -14,7 +14,7 @@ body:
   team:
     - name: Jürgen Ryannel
       role: CEO & Co-founder
-      src: team/jryannel.png
+      src: /team/jryannel.png
       motivation: >
         Software programming has not changed much in the last 20 years since I started.
         We still type code into a window, we still rely on the wisdom of the talented,
@@ -25,6 +25,6 @@ body:
       linkedin: https://linkedin.com/in/jryannel
     - name: Wolfgang Bremer
       role: Co-founder
-      src: team/wbremer.png
+      src: /team/wbremer.png
       motivation: Passionate about good software engineering principles and helping others getting better at it. #Helping developers, teams, companies create better software defined products
       linkedin: https://linkedin.com/in/wbremer
