@@ -1,12 +1,8 @@
 body:
   title: ApiGear UG (haftungsbeschränkt)
   text: ApiGear provides a digital workflow for API driven software creation.
+  impressum: "/legalnotice"
   href: https://apigear.io/
-  links:
-    - title: "About us"
-      href: "/about"
-    - title: "Impressum - legal notice"
-      href: "/legalnotice"
   social:
     - name: linkedin
       href: https://www.linkedin.com/company/apigear
@@ -14,3 +10,20 @@ body:
       href: https://twitter.com/apigear
     - name: github
       href: https://github.com/apigear-io
+  links:
+    - name: product
+      links:
+        - title: "Login"
+          href: "https://app.apigear.io/-/login"
+        - title: "Register"
+          href: "https://app.apigear.io/-/register"
+        - title: "Documentation"
+          href: "https://docs.apigear.io/"
+    - name: about
+      links:
+      - title: "About us"
+        to: "/about"
+      - title: "Community"
+        href: "https://gitter.im/apigear-io/community"
+      - title: "Blog"
+        href: "https://medium.com/apigear"
