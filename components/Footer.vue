@@ -35,26 +35,6 @@
           </v-list>
         </v-card>
       </v-col>
-      <v-spacer></v-spacer>
-      <v-col lg="2">
-        <v-card flat dark color="transparent">
-          <v-card-subtitle>Contact Info</v-card-subtitle>
-          <v-list dense color="transparent">
-            <v-list-item>
-              <v-list-item-subtitle>{{
-                body.contact.location
-              }}</v-list-item-subtitle>
-            </v-list-item>
-            <v-list-item>
-              <v-list-item-subtitle
-                ><a :href="`mailto:${body.contact.email}`">{{
-                  body.contact.email
-                }}</a></v-list-item-subtitle
-              >
-            </v-list-item>
-          </v-list>
-        </v-card>
-      </v-col>
     </v-row>
   </v-footer>
 </template>
