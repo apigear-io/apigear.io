@@ -1,0 +1,70 @@
+body:
+  general:
+    company: ApiGear UG (haftungsbeschränkt)
+    ceo: Jürgen Ryannel
+    street: Eduard-Kandl-Str. 23
+    city: 82211 Herrsching am Ammersee
+    email: info@apigear.io
+    handelsregister: Amtsgericht München HRB 257144
+  content:
+    company: ApiGear UG
+    ceo: Jürgen Ryannel
+    street: Eduard-Kandl-Str. 23
+    city: 82211 Herrsching am Ammersee
+    email: info@apigear.io
+  paragraphs:
+    - name: Nutzungsbedingungen
+      text: |-
+        Texte, Bilder, Grafiken sowie die Gestaltung dieser Internetseiten können unter Umständen dem Urheberrecht unterliegen.
+        Privatpersonen dürfen grundsätzlich urheberrechtlich geschütztes Material zum privaten und sonstigen eigenen Gebrauch im Rahmen des § 53 UrhG verwenden.
+        Eine Vervielfältigung oder Verwendung urheberrechtlich geschützten Materials dieser Seiten oder Teilen davon in anderen elektronischen oder gedruckten Publikationen und deren Veröffentlichung ist aber nur mit Einwilligung des Webseitenbetreibers gestattet. Der Nachdruck und die Auswertung sind allgemein gestattet, sofern die Quelle bezeichnet wird.
+        Texte, Bilder, Grafiken und sonstige Dateien können daneben ganz oder teilweise dem Urheberrecht Dritter unterliegen. Über das Bestehen möglicher Rechte Dritter gibt der für den Inhalt Verantwortliche nähere Auskünfte, sofern diese Rechte nicht bereits durch entsprechende Hinweise auf der Webseite kenntlich gemacht sind.
+    - name: Haftungsausschluss und -beschränkung
+      text: |-
+        ApiGear UG hat alle in diesem Internetangebot bereitgestellten Informationen nach bestem Wissen und Gewissen erarbeitet und geprüft. Es wird jedoch keine Gewähr für die Aktualität, Richtigkeit, Vollständigkeit oder Qualität und jederzeitige Verfügbarkeit der bereit gestellten Informationen übernommen.
+
+        Unbeschadet der Regelungen des § 675 Absatz 2 BGB gilt für das bereitgestellte Informationsangebot folgende
+    - name: Haftungsbeschränkung
+      text: |-
+        ApiGear UG und ihre Angestellten haften nicht für Schäden, die durch die Nutzung oder Nichtnutzung der in ihrem Internetangebot enthaltenen Informationen entstehen. Der Haftungsausschluss gilt nicht, soweit die Vorschrift des § 823 BGB (Haftung bei vorsätzlicher oder fahrlässiger Schadenszufügung) einschlägig ist. Für etwaige Schäden, die beim Aufrufen oder Herunterladen von Daten durch Computerviren oder bei der Installation oder Nutzung von Software verursacht werden, wird nicht gehaftet.
+        Namentlich gekennzeichnete Seiten geben die Auffassungen und Erkenntnisse der unterzeichnende Personen wieder. Die ApiGear UG behält es sich ausdrücklich vor, einzelne Webseiten oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern, zu ergänzen, zu löschen oder die Veröffentlichung zeitweise oder endgültig einzustellen.
+    - name: Haftungsausschluss für Verweise auf andere Internetseiten
+      text: |-
+        ApiGear UG ist nur für die eigenen Inhalte, die es zur Nutzung bereithält, nach den einschlägigen Gesetzen verantwortlich. Von diesen eigenen Inhalten sind Querverweise (Links) auf die Webseiten anderer Anbieter zu unterscheiden. Durch den als Link gekennzeichneten Querverweis wird der Zugang zu fremden Inhalten ermöglicht. Wir vermitteln lediglich den Zugang zur Nutzung dieser Inhalte durch den Querverweis. Für die fremden Inhalte sind wir nicht verantwortlich, da wir die Übermittlung der Information nicht veranlassen, den Adressaten der übermittelten Informationen nicht auswählen und die übermittelten Informationen auch nicht ausgewählt oder verändert haben; es erfolgt auch keine automatische kurzzeitige Zwischenspeicherung dieser fremden Informationen. 
+
+        Für illegale, fehlerhafte oder unvollständige Inhalte und insbesondere für Schäden, die aus der Nutzung oder Nichtnutzung von Informationen Dritter entstehen, haftet allein der jeweilige Anbieter der Seite, auf welche verwiesen wurde.
+    - name: Datenschutz
+      text: |-
+        Für die Bereitstellung unseres Angebots nimmt ApiGear UG die Dienste von Heroku und Netlify in Anspruch. Bei jeder Anforderung einer Internetdatei werden folgende Zugriffsdaten gespeichert:
+            1. die Seite, von der aus die Datei angefordert wurde 
+            2. der Name der aufgerufenen Datei 
+            3. das Datum und die Uhrzeit der Anforderung 
+            4. die übertragene Datenmenge 
+            5. der Zugriffsstatus (Datei übertragen, Datei nicht gefunden, etc.) 
+            6. die Beschreibung des verwendeten Webbrowsertyps bzw. des verwendeten Betriebssystems 
+            7. die IP-Adresse des anfordernden Rechners 
+
+        Die gespeicherten Daten werden ausschließlich anonymisiert zu technischen oder statistischen Zwecken verwendet; ein Abgleich mit anderen Datenbeständen oder eine Weitergabe an Dritte, auch in Auszügen, durch uns findet nicht statt.
+    - name: Google Analytics
+      text: |-
+        Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. („Google“). Google Analytics verwendet sog. „Cookies“, Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert.
+
+        Im Falle der Aktivierung der IP-Anonymisierung auf dieser Webseite, wird Ihre IP-Adresse von Google jedoch innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum zuvor gekürzt. Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt. Die IP-Anonymisierung ist auf dieser Website aktiv. Im Auftrag des Betreibers dieser Website wird Google diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen gegenüber dem Websitebetreiber zu erbringen. 
+
+        Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt. Sie  können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können. Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem sie das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren: http://tools.google.com/dlpage/gaoptout?hl=de. 
+    - name: Cookies
+      text: |-
+        Die Webseiten der ApiGear UG verwenden Cookies. Die meisten Browser sind so eingestellt, dass sie die Verwendung von Cookies akzeptieren, diese Funktion kann aber durch die Einstellung des Internetbrowsers von Ihnen für die laufende Sitzung oder dauerhaft abgeschaltet werden. Sie können Ihren Internetbrowser so einstellen, dass dieser entweder alle Cookies automatisch akzeptiert, alle Cookies automatisch ablehnt oder Sie bei jedem Cookie fragt, ob Sie es akzeptieren oder ablehnen möchten. Nach Auswertung der jährlichen Zugriffe werden die protokollierten Daten gelöscht. Die Auswertung erfolgt monatlich und jährlich, die Löschung erfolgt jeweils im Januar des Folgejahres. Auswertung und Löschung erfolgen durch Goolge Analytics, Hotjar.
+    - name: Eingabe persönlicher Daten
+      text: |-
+        Für die Nutzung unserer Website ist es grundsätzlich nicht erforderlich, dass Sie uns personenbezogene Daten mitteilen, es sei denn, Sie möchten bestimmte Angebote von uns wie z.B. unsere app.apigear.io Anwendung oder Anfragen über unser Kontaktformular nutzen. In diesem Fall ist es erforderlich, dass Sie bestimmte Daten angeben.
+    - name: Elektronische Post (E-Mail)
+      text: |-
+        Informationen, die Sie unverschlüsselt per Elektronische Post (E-Mail) an uns senden, können möglicherweise auf dem Übertragungsweg von Dritten gelesen werden. Wir können in der Regel auch Ihre Identität nicht überprüfen und wissen nicht, wer wirklicher Inhaber einer E-Mail-Adresse ist. Eine rechtssichere Kommunikation durch einfache E-Mail ist daher nicht gewährleistet. Wie viele E-Mail-Anbieter setzen wir Filter gegen unerwünschte Werbung („SPAM-Filter“) ein, die in einigen  Fällen auch normale E-Mails fälschlicherweise automatisch als unerwünschte Werbung einordnen und löschen. E-Mails, die schädigende Programme („Viren“) enthalten, werden von uns in jedem Fall automatisch gelöscht.
+
+        Wenn Sie schutzwürdige Nachrichten an uns senden wollen, empfehlen wir, die Nachricht auf konventionellem Postwege an uns zu senden.
+    - name: Einsatz von YouTube-Komponenten mit erweitertem Datenschutzmodus
+      text: |-
+        Auf unserer Webseite setzen wir Komponenten (Videos) des Unternehmens YouTube, LLC 901 Cherry Ave., 94066 San Bruno, CA, USA, einem Unternehmen der Google Inc., Amphitheatre Parkway, Mountain View, CA 94043, USA, ein. Hierbei nutzen wir die von YouTube zur Verfügung gestellte Option " - erweiterter Datenschutzmodus - ". Wenn Sie eine Seite aufrufen, die über ein eingebettetes Video verfügt, wird eine Verbindung zu den YouTube-Servern hergestellt und dabei der Inhalt durch Mitteilung an Ihren Browser auf der Internetseite dargestellt. Laut den Angaben von YouTube werden im " - erweiterten Datenschutzmodus -" nur Daten an den YouTube-Server übermittelt, insbesondere welche unserer Internetseiten Sie besucht haben, wenn Sie das Video anschauen. Sind Sie gleichzeitig bei YouTube eingeloggt, werden diese Informationen Ihrem Mitgliedskonto bei YouTube zugeordnet. Dies können Sie verhindern, indem Sie sich vor dem Besuch unserer Website von Ihrem Mitgliedskonto abmelden. 
+
+        Weitere Informationen zum Datenschutz von YouTube werden von Google unter dem folgenden Link bereitgestellt: https://www.google.de/intl/de/policies/privacy/ 
