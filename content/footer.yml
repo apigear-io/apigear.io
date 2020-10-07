@@ -13,6 +13,8 @@ body:
   links:
     - name: product
       links:
+        - title: "Playground"
+          href: "https://app.apigear.io/-/demos/playground"
         - title: "Login"
           href: "https://app.apigear.io/-/login"
         - title: "Register"
