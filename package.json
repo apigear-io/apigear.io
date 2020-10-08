@@ -1,8 +1,8 @@
 {
   "name": "apigear.io",
   "version": "1.0.0",
-  "description": "ApiGear landing page",
-  "author": "ApiGear",
+  "description": "Your construction kit for API driven software development",
+  "author": "ApiGear UG",
   "private": true,
   "scripts": {
     "dev": "nuxt",
