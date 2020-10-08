@@ -22,7 +22,7 @@
             width="480"
             height="270"
             :src="
-              `https://www.youtube.com/embed/${body.video}?autoplay=1&origin=http://apigear.io`
+              `https://www.youtube.com/embed/${body.video}?autoplay=0&origin=http://apigear.io`
             "
             frameborder="0"
           ></iframe>
