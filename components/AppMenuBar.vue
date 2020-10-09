@@ -46,51 +46,10 @@
 <script>
 export default {
   name: 'AppMenuBar',
-  data() {
-    return {
-      items: [
-        {
-          title: 'Product',
-          children: [
-            { title: 'Use Cases', to: '/cases' },
-            { title: 'Markets', to: '/markets' },
-            { title: 'Technologies', to: '/technologies' }
-          ]
-        },
-        {
-          title: 'Features',
-          children: [
-            { title: 'Pricing', to: '/pricing' },
-            { title: 'Feature Comparision', to: '/pricing' },
-            {
-              title: 'Roadmap',
-              href: 'https://github.com/apigear-io/apigear-roadmap/projects/1'
-            }
-          ]
-        },
-        {
-          title: 'Learn',
-          children: [
-            { title: 'Docs', href: 'https://docs.apigear.io' },
-            {
-              title: 'Community',
-              href: 'https://gitter.im/apigear-io/community'
-            },
-            { title: 'Blog', href: 'https://medium.com/apigear' }
-          ]
-        },
-        {
-          title: 'Team',
-          to: '/about'
-        },
-        {
-          title: 'Account',
-          children: [
-            { title: 'Login', href: 'https://app.apigear.io/-/login' },
-            { title: 'Register', href: 'https://app.apigear.io/-/register' }
-          ]
-        }
-      ]
+  props: {
+    items: {
+      type: Array,
+      required: true
     }
   }
 }

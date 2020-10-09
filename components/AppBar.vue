@@ -5,8 +5,8 @@
       <b>ApiGear</b>
     </v-btn>
     <v-spacer></v-spacer>
-    <AppMenuBar class="hidden-sm-and-down" />
-    <AppMenuList class="hidden-md-and-up" />
+    <AppMenuBar :items="items" class="hidden-sm-and-down" />
+    <AppMenuList :items="items" class="hidden-md-and-up" />
   </v-app-bar>
 </template>
 
@@ -18,6 +18,15 @@ export default {
   components: {
     AppMenuBar,
     AppMenuList
+  },
+  async fetch() {
+    const { items } = await this.$content('menu').fetch()
+    this.items = items
+  },
+  data() {
+    return {
+      items: []
+    }
   }
 }
 </script>
