@@ -45,7 +45,7 @@
 export default {
   props: {
     plans: {
-      type: Object,
+      type: Array,
       required: true
     },
     title: {
