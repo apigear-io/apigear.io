@@ -9,25 +9,25 @@
       <v-list>
         <template v-for="item in items">
           <div v-if="item.children" :key="item.title">
-            <v-list-item
-              v-for="child in item.children"
-              :key="child.title"
-              :to="child.to"
-              :href="child.href"
-              target="blank"
-            >
-              <v-list-item-title>{{ child.title }}</v-list-item-title>
+            <template v-for="child in item.children">
+              <div :key="child.title">
+                <v-list-item v-if="child.to" :to="child.to">
+                  <v-list-item-title>{{ child.title }}</v-list-item-title>
+                </v-list-item>
+                <v-list-item v-else :href="child.href" target="_blank">
+                  <v-list-item-title>{{ child.title }}</v-list-item-title>
+                </v-list-item>
+              </div>
+            </template>
+          </div>
+          <div v-else :key="item.title">
+            <v-list-item v-if="item.to" :to="item.to">
+              <v-list-item-title>{{ item.title }}</v-list-item-title>
+            </v-list-item>
+            <v-list-item v-else :href="item.href" target="_blank">
+              <v-list-item-title>{{ item.title }}</v-list-item-title>
             </v-list-item>
           </div>
-          <v-list-item
-            v-else
-            :key="item.title"
-            :to="item.to"
-            :href="item.href"
-            target="blank"
-          >
-            <v-list-item-title>{{ item.title }}</v-list-item-title>
-          </v-list-item>
         </template>
       </v-list>
     </v-menu>
