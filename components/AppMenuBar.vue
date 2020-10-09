@@ -16,29 +16,26 @@
           </v-btn>
         </template>
         <v-list dense>
-          <v-list-item
-            v-for="child in item.children"
-            :key="child.title"
-            dense
-            :to="child.to"
-            :href="child.href"
-            target="blank"
-          >
-            <v-list-item-title>{{ child.title }}</v-list-item-title>
-          </v-list-item>
+          <template v-for="child in item.children">
+            <div :key="child.title">
+              <v-list-item v-if="child.to" dense :to="child.to">
+                <v-list-item-title>{{ child.title }}</v-list-item-title>
+              </v-list-item>
+              <v-list-item v-else dense :href="child.href" target="_blank">
+                <v-list-item-title>{{ child.title }}</v-list-item-title>
+              </v-list-item>
+            </div>
+          </template>
         </v-list>
       </v-menu>
-      <v-btn
-        v-else
-        :key="item.title"
-        text
-        dense
-        :to="item.to"
-        :href="item.href"
-        target="blank"
-      >
-        {{ item.title }}
-      </v-btn>
+      <v-item v-else :key="item.title" attach="" offset-y min-width="240">
+        <v-btn v-if="item.to" text :to="item.to">
+          {{ item.title }}
+        </v-btn>
+        <v-btn v-else text :href="item.href" target="_blank">
+          {{ item.title }}
+        </v-btn>
+      </v-item>
     </template>
   </v-toolbar-items>
 </template>
