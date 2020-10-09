@@ -7,15 +7,28 @@
         </v-btn>
       </template>
       <v-list>
-        <v-list-item
-          v-for="(link, i) in links"
-          :key="i"
-          :to="link.to"
-          :href="link.href"
-          target="blank"
-        >
-          <v-list-item-title>{{ link.title }}</v-list-item-title>
-        </v-list-item>
+        <template v-for="item in items">
+          <div v-if="item.children" :key="item.title">
+            <v-list-item
+              v-for="child in item.children"
+              :key="child.title"
+              :to="child.to"
+              :href="child.href"
+              target="blank"
+            >
+              <v-list-item-title>{{ child.title }}</v-list-item-title>
+            </v-list-item>
+          </div>
+          <v-list-item
+            v-else
+            :key="item.title"
+            :to="item.to"
+            :href="item.href"
+            target="blank"
+          >
+            <v-list-item-title>{{ item.title }}</v-list-item-title>
+          </v-list-item>
+        </template>
       </v-list>
     </v-menu>
   </v-toolbar-items>
@@ -24,24 +37,10 @@
 <script>
 export default {
   name: 'AppMenuList',
-  data() {
-    return {
-      links: [
-        { title: 'Use Cases', to: '/cases' },
-        { title: 'Markets', to: '/markets' },
-        { title: 'Technologies', to: '/technologies' },
-        { title: 'Pricing', to: '/pricing' },
-        { title: 'Feature Comparision', to: '/pricing' },
-        {
-          title: 'Roadmap',
-          href: 'https://github.com/apigear-io/apigear-roadmap/projects/1'
-        },
-        { title: 'Docs', href: 'https://docs.apigear.io' },
-        { title: 'Blog', href: 'https://medium.com/apigear' },
-        { title: 'Team', to: '/about' },
-        { title: 'Login', href: 'https://app.apigear.io/-/login' },
-        { title: 'Register', href: 'https://app.apigear.io/-/register' }
-      ]
+  props: {
+    items: {
+      type: Array,
+      required: true
     }
   }
 }
