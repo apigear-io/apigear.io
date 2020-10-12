@@ -7,8 +7,19 @@
           body.text
         }}</v-card-subtitle>
         <v-card-actions class="my-4">
-          <v-btn color="primary" href="https://app.apigear.io/-/register">
+          <v-btn
+            color="primary"
+            href="https://app.apigear.io/-/register"
+            target="_blank"
+          >
             Get started for free
+          </v-btn>
+          <v-btn
+            color="primary"
+            href="https://calendly.com/apigear/"
+            target="_blank"
+          >
+            Book a demo
           </v-btn>
         </v-card-actions>
       </v-card>
