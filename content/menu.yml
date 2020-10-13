@@ -25,9 +25,5 @@ items:
         href: https://medium.com/apigear
   - title: Team
     to: "/about"
-  - title: Account
-    children:
-      - title: Login
-        href: https://app.apigear.io/-/login
-      - title: Register
-        href: https://app.apigear.io/-/register
+  - title: Login
+    href: https://app.apigear.io/-/login

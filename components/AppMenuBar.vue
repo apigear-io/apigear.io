@@ -37,6 +37,17 @@
         </v-btn>
       </v-item>
     </template>
+    <div>
+      <v-btn
+        color="primary"
+        outlined
+        href="https://app.apigear.io/-/register"
+        target="_blank"
+        class="mt-3"
+      >
+        Get started for free
+      </v-btn>
+    </div>
   </v-toolbar-items>
 </template>
 

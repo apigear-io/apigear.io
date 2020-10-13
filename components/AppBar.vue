@@ -5,13 +5,6 @@
       <b>ApiGear</b>
     </v-btn>
     <v-spacer></v-spacer>
-    <v-btn
-      color="primary"
-      href="https://app.apigear.io/-/register"
-      target="_blank"
-    >
-      Get started for free
-    </v-btn>
     <AppMenuBar :items="items" class="hidden-sm-and-down" />
     <AppMenuList :items="items" class="hidden-md-and-up" />
   </v-app-bar>

@@ -1,5 +1,17 @@
 <template>
   <v-toolbar-items>
+    <div>
+      <v-btn
+        color="primary"
+        outlined
+        href="https://app.apigear.io/-/register"
+        target="_blank"
+        class="mt-3"
+      >
+        Get started for free
+      </v-btn>
+    </div>
+    <v-spacer></v-spacer>
     <v-menu bottom left close-on-click>
       <template v-slot:activator="{ on, attrs }">
         <v-btn icon v-bind="attrs" v-on="on">
