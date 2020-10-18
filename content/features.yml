@@ -1,16 +1,31 @@
 body:
-  - title: Design Your API Online
-    text: API design is a team effort. Not only for developers. Describe your API and validate the design. The Object API allows teams to sketch and arrange software modules, before starting to write code. It describes the communication between objects and its boundaries. Visit our playground to try it out.
+  - title: Rapidly create and ship solutions
+    text: >
+      Through software automation our customers create high-quality solutions in a fraction of time.
+      Our API driven workflow allows teams to develop software modules independently
+      and cut down the overall time to market significantly.
+      For device software our API simulation will unlock the teams productivity by eliminating the hardware dependencies.
     image: /features/playground.png
     href: https://app.apigear.io/-/demos/playground
     linktitle: Try it!
-  - title: Developer Portal
-    text: Always up to sync documentation of your API for your team and consumers of your API.
+
+  - title: Reduce your software complexity
+    text: >
+      Rapidly accumulating software complexity is a root cause of radical dropping productivity.
+      We create solutions which keeps the software complexity low and your team productive high.
+      Our API driven workflow allows your team to stay focused on the unique aspects of software.
     image: /design_notes.svg
     href: https://docs.apigear.io/guide/start
     linktitle: More...
-  - title: SDK As A Service
-    text: Generate different SDKs from one API description using our SDK generator service. Follow up on API changes.
+
+  - title: Built-in data analytics
+    text: >
+      Dynamically configure the amount of data captured from the software solutions,
+      while in development or deployed to the field.
+      The captured data is highly structured captures the behavior of the product over time.
+      This allows new businsfinding defacof any defects dramatically, there is no guessing anymore.
+      The telemetry data can also be used afterAlso after the device is deployed our telemetry solution allows
+      you optionally to trace the behavior of the device based in our data analytics solution.
     image: /operating_system.svg
     href: https://docs.apigear.io/sdk/intro/
     linktitle: More...

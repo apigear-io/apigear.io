@@ -1,4 +1,8 @@
 body:
-  title: Software Construction for Everyone
-  text: ApiGear is a team based online software construction kit for creators, designers and managers. We create high performance teams.
+  title: Craft better software faster
+  text: >
+    Simplify creating software.
+    We automate infrastructure coding to lower the overall software complexity to make your team more productive and happy.
+    Our API driven workflow isolates software modules and simulate dependencies to empower teams to create, test, and ship better software faster, from start to finish.
+
   video: wtTLCOZulyg
