@@ -33,31 +33,133 @@ body:
         ApiGear UG ist nur für die eigenen Inhalte, die es zur Nutzung bereithält, nach den einschlägigen Gesetzen verantwortlich. Von diesen eigenen Inhalten sind Querverweise (Links) auf die Webseiten anderer Anbieter zu unterscheiden. Durch den als Link gekennzeichneten Querverweis wird der Zugang zu fremden Inhalten ermöglicht. Wir vermitteln lediglich den Zugang zur Nutzung dieser Inhalte durch den Querverweis. Für die fremden Inhalte sind wir nicht verantwortlich, da wir die Übermittlung der Information nicht veranlassen, den Adressaten der übermittelten Informationen nicht auswählen und die übermittelten Informationen auch nicht ausgewählt oder verändert haben; es erfolgt auch keine automatische kurzzeitige Zwischenspeicherung dieser fremden Informationen. 
 
         Für illegale, fehlerhafte oder unvollständige Inhalte und insbesondere für Schäden, die aus der Nutzung oder Nichtnutzung von Informationen Dritter entstehen, haftet allein der jeweilige Anbieter der Seite, auf welche verwiesen wurde.
-    - name: Datenschutz
+    - name: Datenschutzerklärung
       text: |-
-        Für die Bereitstellung unseres Angebots nimmt ApiGear UG die Dienste von Heroku und Netlify in Anspruch. Bei jeder Anforderung einer Internetdatei werden folgende Zugriffsdaten gespeichert:
-            1. die Seite, von der aus die Datei angefordert wurde 
-            2. der Name der aufgerufenen Datei 
-            3. das Datum und die Uhrzeit der Anforderung 
-            4. die übertragene Datenmenge 
-            5. der Zugriffsstatus (Datei übertragen, Datei nicht gefunden, etc.) 
-            6. die Beschreibung des verwendeten Webbrowsertyps bzw. des verwendeten Betriebssystems 
-            7. die IP-Adresse des anfordernden Rechners 
+        Allgemeiner Hinweis und Pflichtinformationen
+        Benennung der verantwortlichen Stelle
+        
+        Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
 
-        Die gespeicherten Daten werden ausschließlich anonymisiert zu technischen oder statistischen Zwecken verwendet; ein Abgleich mit anderen Datenbeständen oder eine Weitergabe an Dritte, auch in Auszügen, durch uns findet nicht statt.
-    - name: Google Analytics
+        ApiGear UG (haftungsbeschränkt)
+        Jürgen Ryannel
+        Eduard-Kandl-Str. 23
+        82211 Herrsching am Ammersee
+
+        Die verantwortliche Stelle entscheidet allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.B. Namen, Kontaktdaten o. Ä.).
+    - name: Widerruf Ihrer Einwilligung zur Datenverarbeitung
       text: |-
-        Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. („Google“). Google Analytics verwendet sog. „Cookies“, Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert.
-
-        Im Falle der Aktivierung der IP-Anonymisierung auf dieser Webseite, wird Ihre IP-Adresse von Google jedoch innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum zuvor gekürzt. Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt. Die IP-Anonymisierung ist auf dieser Website aktiv. Im Auftrag des Betreibers dieser Website wird Google diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen gegenüber dem Websitebetreiber zu erbringen. 
-
-        Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt. Sie  können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können. Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem sie das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren: http://tools.google.com/dlpage/gaoptout?hl=de. 
-    - name: Cookies
+        Nur mit Ihrer ausdrücklichen Einwilligung sind einige Vorgänge der Datenverarbeitung möglich. Ein Widerruf Ihrer bereits erteilten Einwilligung ist jederzeit möglich. Für den Widerruf genügt eine formlose Mitteilung per E-Mail. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.
+    - name: Recht auf Beschwerde bei der zuständigen Aufsichtsbehörde
       text: |-
-        Die Webseiten der ApiGear UG verwenden Cookies. Die meisten Browser sind so eingestellt, dass sie die Verwendung von Cookies akzeptieren, diese Funktion kann aber durch die Einstellung des Internetbrowsers von Ihnen für die laufende Sitzung oder dauerhaft abgeschaltet werden. Sie können Ihren Internetbrowser so einstellen, dass dieser entweder alle Cookies automatisch akzeptiert, alle Cookies automatisch ablehnt oder Sie bei jedem Cookie fragt, ob Sie es akzeptieren oder ablehnen möchten. Nach Auswertung der jährlichen Zugriffe werden die protokollierten Daten gelöscht. Die Auswertung erfolgt monatlich und jährlich, die Löschung erfolgt jeweils im Januar des Folgejahres. Auswertung und Löschung erfolgen durch Goolge Analytics, Hotjar.
+        Als Betroffener steht Ihnen im Falle eines datenschutzrechtlichen Verstoßes ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu. Zuständige Aufsichtsbehörde bezüglich datenschutzrechtlicher Fragen ist der Landesdatenschutzbeauftragte des Bundeslandes, in dem sich der Sitz unseres Unternehmens befindet. Der folgende Link stellt eine Liste der Datenschutzbeauftragten sowie deren Kontaktdaten bereit: 
+        https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html.
+    - name: Recht auf Datenübertragbarkeit
+      text: |-
+        Ihnen steht das Recht zu, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert verarbeiten, an sich oder an Dritte aushändigen zu lassen. Die Bereitstellung erfolgt in einem maschinenlesbaren Format. Sofern Sie die direkte Übertragung der Daten an einen anderen Verantwortlichen verlangen, erfolgt dies nur, soweit es technisch machbar ist.
+    - name: Recht auf Auskunft, Berichtigung, Sperrung, Löschung
+      text: |-
+        Sie haben jederzeit im Rahmen der geltenden gesetzlichen Bestimmungen das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, Herkunft der Daten, deren Empfänger und den Zweck der Datenverarbeitung und ggf. ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten. Diesbezüglich und auch zu weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit über die im Impressum aufgeführten Kontaktmöglichkeiten an uns wenden.
+    - name: SSL- bzw. TLS-Verschlüsselung
+      text: |-
+        Aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, die Sie an uns als Seitenbetreiber senden, nutzt unsere Website eine SSL-bzw. TLS-Verschlüsselung. Damit sind Daten, die Sie über diese Website übermitteln, für Dritte nicht mitlesbar. Sie erkennen eine verschlüsselte Verbindung an der „https://“ Adresszeile Ihres Browsers und am Schloss-Symbol in der Browserzeile.
+
+    - name: Server-Log-Dateien
+      text: |-
+        In Server-Log-Dateien erhebt und speichert der Provider der Website automatisch Informationen, die Ihr Browser automatisch an uns übermittelt. Dies sind:
+
+        - Besuchte Seite auf unserer Domain
+        - Datum und Uhrzeit der Serveranfrage
+        - Browsertyp und Browserversion
+        - Verwendetes Betriebssystem
+        - Referrer URL
+        - Hostname des zugreifenden Rechners
+        - IP-Adresse
+
+        Es findet keine Zusammenführung dieser Daten mit anderen Datenquellen statt. Grundlage der Datenverarbeitung bildet Art. 6 Abs. 1 lit. b DSGVO, der die Verarbeitung von Daten zur Erfüllung eines Vertrags oder vorvertraglicher Maßnahmen gestattet.
+    - name: Datenübermittlung bei Vertragsschluss für Dienstleistungen
+      text: |-
+        Personenbezogene Daten werden an Dritte nur übermittelt, sofern eine Notwendigkeit im Rahmen der Vertragsabwicklung besteht. Dritte können beispielsweise Bezahldienstleister sein. Eine weitergehende Übermittlung der Daten findet nicht statt bzw. nur dann, wenn Sie dieser ausdrücklich zugestimmt haben.
+
+        Grundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. b DSGVO, der die Verarbeitung von Daten zur Erfüllung eines Vertrags oder vorvertraglicher Maßnahmen gestattet.
     - name: Eingabe persönlicher Daten
       text: |-
         Für die Nutzung unserer Website ist es grundsätzlich nicht erforderlich, dass Sie uns personenbezogene Daten mitteilen, es sei denn, Sie möchten bestimmte Angebote von uns wie z.B. unsere app.apigear.io Anwendung oder Anfragen über unser Kontaktformular nutzen. In diesem Fall ist es erforderlich, dass Sie bestimmte Daten angeben.
+    - name: Registrierung auf dieser Website
+      text: |-
+        Zur Nutzung bestimmter Funktionen können Sie sich auf unserer Website registrieren. Die übermittelten Daten dienen ausschließlich zum Zwecke der Nutzung des jeweiligen Angebotes oder Dienstes. Bei der Registrierung abgefragte Pflichtangaben sind vollständig anzugeben. Andernfalls werden wir die Registrierung ablehnen.
+
+        Im Falle wichtiger Änderungen, etwa aus technischen Gründen, informieren wir Sie per E-Mail. Die E-Mail wird an die Adresse versendet, die bei der Registrierung angegeben wurde.
+
+        Die Verarbeitung der bei der Registrierung eingegebenen Daten erfolgt auf Grundlage Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Ein Widerruf Ihrer bereits erteilten Einwilligung ist jederzeit möglich. Für den Widerruf genügt eine formlose Mitteilung per E-Mail. Die Rechtmäßigkeit der bereits erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.
+
+        Wir speichern die bei der Registrierung erfassten Daten während des Zeitraums, den Sie auf unserer Website registriert sind. Ihren Daten werden gelöscht, sollten Sie Ihre Registrierung aufheben. Gesetzliche Aufbewahrungsfristen bleiben unberührt.
+    - name: Kontaktformular
+      text: |-
+        Per Kontaktformular übermittelte Daten werden einschließlich Ihrer Kontaktdaten gespeichert, um Ihre Anfrage bearbeiten zu können oder um für Anschlussfragen bereitzustehen. Eine Weitergabe dieser Daten findet ohne Ihre Einwilligung nicht statt.
+
+        Die Verarbeitung der in das Kontaktformular eingegebenen Daten erfolgt ausschließlich auf Grundlage Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Ein Widerruf Ihrer bereits erteilten Einwilligung ist jederzeit möglich. Für den Widerruf genügt eine formlose Mitteilung per E-Mail. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitungsvorgänge bleibt vom Widerruf unberührt.
+
+        Über das Kontaktformular übermittelte Daten verbleiben bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder keine Notwendigkeit der Datenspeicherung mehr besteht. Zwingende gesetzliche Bestimmungen - insbesondere Aufbewahrungsfristen - bleiben unberührt.
+    - name: Google Analytics
+      text: |-
+        Unsere Website verwendet Funktionen des Webanalysedienstes Google Analytics. Anbieter des Webanalysedienstes ist die Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA.
+
+        Google Analytics verwendet "Cookies." Das sind kleine Textdateien, die Ihr Webbrowser auf Ihrem Endgerät speichert und eine Analyse der Website-Benutzung ermöglichen. Mittels Cookie erzeugte Informationen über Ihre Benutzung unserer Website werden an einen Server von Google übermittelt und dort gespeichert. Server-Standort ist im Regelfall die USA.
+
+        Das Setzen von Google-Analytics-Cookies erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Als Betreiber dieser Website haben wir  ein berechtigtes Interesse an der Analyse des Nutzerverhaltens, um unser Webangebot und ggf. auch Werbung zu optimieren.
+
+        IP-Anonymisierung
+
+        Wir setzen Google Analytics in Verbindung mit der Funktion IP-Anonymisierung ein. Sie gewährleistet, dass Google Ihre IP-Adresse innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum vor der Übermittlung in die USA kürzt. Es kann Ausnahmefälle geben, in denen Google die volle IP-Adresse an einen Server in den USA überträgt und dort kürzt. In unserem Auftrag wird Google diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über Websiteaktivitäten zu erstellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen gegenüber uns zu erbringen. Es findet keine Zusammenführung der von Google Analytics übermittelten IP-Adresse mit anderen Daten von Google statt.
+
+        Browser Plugin
+
+        Das Setzen von Cookies durch Ihren Webbrowser ist verhinderbar. Einige Funktionen unserer Website könnten dadurch jedoch eingeschränkt werden. Ebenso können Sie die Erfassung von Daten bezüglich Ihrer Website-Nutzung einschließlich Ihrer IP-Adresse mitsamt anschließender Verarbeitung durch Google unterbinden. Dies ist möglich, indem Sie das über folgenden Link erreichbare Browser-Plugin herunterladen und installieren: https://tools.google.com/dlpage/gaoptout?hl=de.
+
+        Widerspruch gegen die Datenerfassung
+
+        Sie können die Erfassung Ihrer Daten durch Google Analytics verhindern, indem Sie auf folgenden Link klicken. Es wird ein Opt-Out-Cookie gesetzt, der die Erfassung Ihrer Daten bei zukünftigen Besuchen unserer Website verhindert: Google Analytics deaktivieren.
+
+        Einzelheiten zum Umgang mit Nutzerdaten bei Google Analytics finden Sie in der Datenschutzerklärung von Google: https://support.google.com/analytics/answer/6004245?hl=de.
+    - name: Google Web Fonts
+      text: |-
+        Unsere Website verwendet Web Fonts von Google. Anbieter ist die Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA.
+
+        Durch den Einsatz dieser Web Fonts wird es möglich Ihnen die von uns gewünschte Darstellung unserer Website zu präsentieren, unabhängig davon welche Schriften Ihnen lokal zur Verfügung stehen. Dies erfolgt über den Abruf der Google Web Fonts von einem Server von Google in den USA und der damit verbundenen Weitergabe Ihre Daten an Google. Dabei handelt es sich um Ihre IP-Adresse und welche Seite Sie bei uns besucht haben. Der Einsatz von Google Web Fonts erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Als Betreiber dieser Website haben wir ein berechtigtes Interesse an der optimalen Darstellung und Übertragung unseres Webauftritts.
+
+        Das Unternehmen Google ist für das us-europäische Datenschutzübereinkommen "Privacy Shield" zertifiziert. Dieses Datenschutzübereinkommen soll die Einhaltung des in der EU geltenden Datenschutzniveaus gewährleisten.
+
+        Einzelheiten über Google Web Fonts finden Sie unter: https://www.google.com/fonts#AboutPlace:about und weitere Informationen in den Datenschutzbestimmungen von Google: https://policies.google.com/privacy/partners?hl=de
+    - name: Hotjar
+      text: |-
+        Diese Website nutzt Hotjar. Anbieter ist die Hotjar Ltd., Level 2, St Julians Business Centre, 3, Elia Zammit Street, St Julians STJ 1000, Malta, Europe (Website: https://www.hotjar.com).
+
+        Hotjar ist ein Werkzeug zur Analyse Ihres Nutzerverhaltens auf dieser Website. Mit Hotjar können wir u. a. Ihre Maus- und Scrollbewegungen und Klicks aufzeichnen. Hotjar kann dabei auch feststellen, wie lange Sie mit dem Mauszeiger auf einer bestimmten Stelle verblieben sind. Aus diesen Informationen erstellt Hotjar sogenannte Heatmaps, mit denen sich feststellen lässt, welche Websitebereiche vom Websitebesucher bevorzugt angeschaut werden.
+
+        Des Weiteren können wir feststellen, wie lange Sie auf einer Seite verblieben sind und wann Sie sie verlassen haben. Wir können auch feststellen, an welcher Stelle Sie Ihre Eingaben in ein Kontaktformular abgebrochen haben (sog. Conversion-Funnels).
+
+        Darüber hinaus können mit Hotjar direkte Feedbacks von Websitebesuchern eingeholt werden. Diese Funktion dient der Verbesserung der Webangebote des Websitebetreibers.
+
+        Hotjar verwendet Technologien, die die Wiedererkennung des Nutzers zum Zwecke der Analyse des Nutzerverhaltens ermöglichen (z.B. Cookies oder Einsatz von Device-Fingerprinting).
+
+        Die Nutzung dieses Analysetools erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein berechtigtes Interesse an der Analyse des Nutzerverhaltens, um sowohl sein Webangebot als auch seine Werbung zu optimieren. Sofern eine entsprechende Einwilligung abgefragt wurde (z. B. eine Einwilligung zur Speicherung von Cookies), erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO; die Einwilligung ist jederzeit widerrufbar.
+
+        Deaktivieren von Hotjar
+
+        Wenn Sie die Datenerfassung durch Hotjar deaktivieren möchten, klicken Sie auf folgenden Link und folgen Sie den dortigen Anweisungen: https://www.hotjar.com/opt-out
+
+        Bitte beachten Sie, dass die Deaktivierung von Hotjar für jeden Browser bzw. für jedes Endgerät separat erfolgen muss.
+
+        Nähere Informationen über Hotjar und zu den erfassten Daten entnehmen Sie der Datenschutzerklärung von Hotjar unter dem folgenden Link: https://www.hotjar.com/privacy
+    - name: Cookies
+      text: |-
+        Unsere Website verwendet Cookies. Das sind kleine Textdateien, die Ihr Webbrowser auf Ihrem Endgerät speichert. Cookies helfen uns dabei, unser Angebot nutzerfreundlicher, effektiver und sicherer zu machen.
+
+        Einige Cookies sind “Session-Cookies.” Solche Cookies werden nach Ende Ihrer Browser-Sitzung von selbst gelöscht. Hingegen bleiben andere Cookies auf Ihrem Endgerät bestehen, bis Sie diese selbst löschen. Solche Cookies helfen uns, Sie bei Rückkehr auf unserer Website wiederzuerkennen.
+
+        Mit einem modernen Webbrowser können Sie das Setzen von Cookies überwachen, einschränken oder unterbinden. Viele Webbrowser lassen sich so konfigurieren, dass Cookies mit dem Schließen des Programms von selbst gelöscht werden. Die Deaktivierung von Cookies kann eine eingeschränkte Funktionalität unserer Website zur Folge haben.
+
+        Das Setzen von Cookies, die zur Ausübung elektronischer Kommunikationsvorgänge oder der Bereitstellung bestimmter, von Ihnen erwünschter Funktionen (z.B. Warenkorb) notwendig sind, erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Als Betreiber dieser Website haben wir ein berechtigtes Interesse an der Speicherung von Cookies zur technisch fehlerfreien und reibungslosen Bereitstellung unserer Dienste. Sofern die Setzung anderer Cookies (z.B. für Analyse-Funktionen) erfolgt, werden diese in dieser Datenschutzerklärung separat behandelt.
     - name: Elektronische Post (E-Mail)
       text: |-
         Informationen, die Sie unverschlüsselt per Elektronische Post (E-Mail) an uns senden, können möglicherweise auf dem Übertragungsweg von Dritten gelesen werden. Wir können in der Regel auch Ihre Identität nicht überprüfen und wissen nicht, wer wirklicher Inhaber einer E-Mail-Adresse ist. Eine rechtssichere Kommunikation durch einfache E-Mail ist daher nicht gewährleistet. Wie viele E-Mail-Anbieter setzen wir Filter gegen unerwünschte Werbung („SPAM-Filter“) ein, die in einigen  Fällen auch normale E-Mails fälschlicherweise automatisch als unerwünschte Werbung einordnen und löschen. E-Mails, die schädigende Programme („Viren“) enthalten, werden von uns in jedem Fall automatisch gelöscht.
@@ -65,6 +167,12 @@ body:
         Wenn Sie schutzwürdige Nachrichten an uns senden wollen, empfehlen wir, die Nachricht auf konventionellem Postwege an uns zu senden.
     - name: Einsatz von YouTube-Komponenten mit erweitertem Datenschutzmodus
       text: |-
-        Auf unserer Webseite setzen wir Komponenten (Videos) des Unternehmens YouTube, LLC 901 Cherry Ave., 94066 San Bruno, CA, USA, einem Unternehmen der Google Inc., Amphitheatre Parkway, Mountain View, CA 94043, USA, ein. Hierbei nutzen wir die von YouTube zur Verfügung gestellte Option " - erweiterter Datenschutzmodus - ". Wenn Sie eine Seite aufrufen, die über ein eingebettetes Video verfügt, wird eine Verbindung zu den YouTube-Servern hergestellt und dabei der Inhalt durch Mitteilung an Ihren Browser auf der Internetseite dargestellt. Laut den Angaben von YouTube werden im " - erweiterten Datenschutzmodus -" nur Daten an den YouTube-Server übermittelt, insbesondere welche unserer Internetseiten Sie besucht haben, wenn Sie das Video anschauen. Sind Sie gleichzeitig bei YouTube eingeloggt, werden diese Informationen Ihrem Mitgliedskonto bei YouTube zugeordnet. Dies können Sie verhindern, indem Sie sich vor dem Besuch unserer Website von Ihrem Mitgliedskonto abmelden. 
+        Für Integration und Darstellung von Videoinhalten nutzt unsere Website Plugins von YouTube. Anbieter des Videoportals ist die YouTube, LLC, 901 Cherry Ave., San Bruno, CA 94066, USA.
 
-        Weitere Informationen zum Datenschutz von YouTube werden von Google unter dem folgenden Link bereitgestellt: https://www.google.de/intl/de/policies/privacy/ 
+        Bei Aufruf einer Seite mit integriertem YouTube-Plugin wird eine Verbindung zu den Servern von YouTube hergestellt. YouTube erfährt hierdurch, welche unserer Seiten Sie aufgerufen haben.
+
+        YouTube kann Ihr Surfverhalten direkt Ihrem persönlichen Profil zuzuordnen, sollten Sie in Ihrem YouTube Konto eingeloggt sein. Durch vorheriges Ausloggen haben Sie die Möglichkeit, dies zu unterbinden.
+
+        Die Nutzung von YouTube erfolgt im Interesse einer ansprechenden Darstellung unserer Online-Angebote. Dies stellt ein berechtigtes Interesse im Sinne von Art. 6 Abs. 1 lit. f DSGVO dar.
+
+        Einzelheiten zum Umgang mit Nutzerdaten finden Sie in der Datenschutzerklärung von YouTube unter: https://www.google.de/intl/de/policies/privacy.
