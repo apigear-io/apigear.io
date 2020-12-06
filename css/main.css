@@ -10,3 +10,10 @@
 .nuxt-content p {
   /* my custom h1 style */
 }
+
+/* disable highlight on active buttons
+https://github.com/vuetifyjs/vuetify/issues/8172 */
+.v-btn--active.no-active:not(:focus):not(:hover)::before
+{
+  opacity: 0 !important;
+}
