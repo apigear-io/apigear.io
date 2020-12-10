@@ -104,5 +104,10 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
+  },
+
+  generate: {
+    // https://nuxtjs.org/docs/2.x/configuration-glossary/configuration-generate/
+    fallback: '404.html'
   }
 }
