@@ -1,4 +1,6 @@
 export default {
+  // https://nuxtjs.org/blog/going-full-static/
+  target: 'static',
   /*
    ** Headers of the page
    */
