@@ -1,4 +1,7 @@
 steps:
+  - name: gcr.io/cloud-builders/git
+    entrypoint: git
+    args: ['fetch', '--unshallow']
   - name: node
     entrypoint: npm
     args: ['install']
