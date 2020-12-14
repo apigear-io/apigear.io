@@ -21,8 +21,8 @@ export default {
     const slug = params.slug
     const slide = await $content('cases', slug).fetch()
     return {
-      slide
+      slide,
     }
-  }
+  },
 }
 </script>

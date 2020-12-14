@@ -30,8 +30,8 @@ export default {
   props: {
     features: {
       type: Array,
-      required: true
-    }
-  }
+      required: true,
+    },
+  },
 }
 </script>

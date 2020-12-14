@@ -13,10 +13,10 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
-      }
+        content: process.env.npm_package_description || '',
+      },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
   /*
    ** Customize the progress-bar color
@@ -36,7 +36,7 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
-    '@nuxtjs/vuetify'
+    '@nuxtjs/vuetify',
   ],
   /*
    ** Nuxt.js modules
@@ -50,7 +50,7 @@ export default {
     '@nuxt/content',
     '@nuxtjs/gtm',
     /* https://github.com/nuxt-community/sitemap-module */
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
   ],
   /*
    ** Google Tag Maanger configuration
@@ -58,11 +58,11 @@ export default {
    */
   gtm: {
     id: 'GTM-KRBL7NF',
-    pageTracking: true
+    pageTracking: true,
   },
   sitemap: {
     hostname: 'https://apigear.io',
-    gzip: true
+    gzip: true,
   },
   /*
    ** Axios module configuration
@@ -73,9 +73,9 @@ export default {
   content: {
     markdown: {
       prism: {
-        theme: 'prismjs/themes/prism-coy.css'
-      }
-    }
+        theme: 'prismjs/themes/prism-coy.css',
+      },
+    },
   },
   /*
    ** vuetify module configuration
@@ -87,16 +87,16 @@ export default {
       light: true,
       themes: {
         light: {
-          primary: '#6C63FF'
+          primary: '#6C63FF',
           //     secondary: '#673ab7',
           //     accent: '#ff5722',
           //     error: '#f44336',
           //     warning: '#ff9800',
           //     info: '#00bcd4',
           //     success: '#4caf50'
-        }
-      }
-    }
+        },
+      },
+    },
   },
   /*
    ** Build configuration
@@ -105,11 +105,11 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
+    extend(config, ctx) {},
   },
 
   generate: {
     // https://nuxtjs.org/docs/2.x/configuration-glossary/configuration-generate/
-    fallback: '404.html'
-  }
+    fallback: '404.html',
+  },
 }

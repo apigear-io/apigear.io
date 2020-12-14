@@ -32,8 +32,8 @@ export default {
   async asyncData({ $content }) {
     const slides = await $content('technologies').fetch()
     return {
-      slides
+      slides,
     }
-  }
+  },
 }
 </script>

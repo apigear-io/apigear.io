@@ -15,7 +15,7 @@ export default {
   components: {
     Banner,
     Feature,
-    Workflow
+    Workflow,
   },
   async asyncData({ $content }) {
     const banner = await $content('banner').fetch()
@@ -24,8 +24,8 @@ export default {
     return {
       banner: banner.body,
       features: features.body,
-      workflow: workflow.body
+      workflow: workflow.body,
     }
-  }
+  },
 }
 </script>

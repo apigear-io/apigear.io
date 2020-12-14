@@ -9,7 +9,7 @@
         sm="3"
       >
         <v-card outlined dark color="transparent">
-          <v-card-subtitle style="text-transform: uppercase;" class="mb-n2">{{
+          <v-card-subtitle style="text-transform: uppercase" class="mb-n2">{{
             category.name
           }}</v-card-subtitle>
           <v-list dense color="transparent">
@@ -77,9 +77,9 @@ export default {
         title: '',
         text: '',
         links: [],
-        social: []
-      }
+        social: [],
+      },
     }
-  }
+  },
 }
 </script>

@@ -28,8 +28,8 @@ export default {
   async asyncData({ $content }) {
     const slides = await $content('markets').fetch()
     return {
-      slides
+      slides,
     }
-  }
+  },
 }
 </script>

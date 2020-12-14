@@ -6,13 +6,13 @@
 import About from '@/components/About'
 export default {
   components: {
-    About
+    About,
   },
   async asyncData({ $content }) {
     const { body } = await $content('about').fetch()
     return {
-      body
+      body,
     }
-  }
+  },
 }
 </script>

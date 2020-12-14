@@ -76,8 +76,8 @@ export default {
   props: {
     body: {
       type: Object,
-      required: true
-    }
-  }
+      required: true,
+    },
+  },
 }
 </script>
