@@ -6,13 +6,13 @@
 import Legalnotice from '@/components/Legalnotice'
 export default {
   components: {
-    Legalnotice
+    Legalnotice,
   },
   async asyncData({ $content }) {
     const { body } = await $content('legalnotice').fetch()
     return {
-      body
+      body,
     }
-  }
+  },
 }
 </script>

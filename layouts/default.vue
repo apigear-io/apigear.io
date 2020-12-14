@@ -17,7 +17,7 @@ import AppBar from '@/components/AppBar'
 export default {
   components: {
     Footer,
-    AppBar
-  }
+    AppBar,
+  },
 }
 </script>

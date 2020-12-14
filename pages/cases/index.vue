@@ -29,12 +29,10 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const slides = await $content('cases')
-      .sortBy('slug')
-      .fetch()
+    const slides = await $content('cases').sortBy('slug').fetch()
     return {
-      slides
+      slides,
     }
-  }
+  },
 }
 </script>

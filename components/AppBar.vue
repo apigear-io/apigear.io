@@ -17,7 +17,7 @@ import AppMenuList from './AppMenuList'
 export default {
   components: {
     AppMenuBar,
-    AppMenuList
+    AppMenuList,
   },
   async fetch() {
     const { items } = await this.$content('menu').fetch()
@@ -25,8 +25,8 @@ export default {
   },
   data() {
     return {
-      items: []
+      items: [],
     }
-  }
+  },
 }
 </script>

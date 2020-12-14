@@ -32,9 +32,7 @@
             type="text/html"
             width="480"
             height="270"
-            :src="
-              `https://www.youtube-nocookie.com/embed/${body.video}?autoplay=0&origin=http://apigear.io`
-            "
+            :src="`https://www.youtube-nocookie.com/embed/${body.video}?autoplay=0&origin=http://apigear.io`"
             frameborder="0"
           ></iframe>
         </v-card-text>
@@ -52,10 +50,10 @@ export default {
       default() {
         return {
           title: 'TITLE',
-          text: 'TEXT'
+          text: 'TEXT',
         }
-      }
-    }
-  }
+      },
+    },
+  },
 }
 </script>

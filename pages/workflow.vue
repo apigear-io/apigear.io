@@ -1,18 +1,18 @@
 <template>
-  <Workflow :body="body"></Workflow>
+  <workflow :body="body" />
 </template>
 
 <script>
-import Workflow from '@/components/Workflow'
+import Workflow from '@/components/Workflow.vue'
 export default {
   components: {
-    Workflow
+    Workflow,
   },
   async asyncData({ $content }) {
     const { body } = await $content('workflow').fetch()
     return {
-      body
+      body,
     }
-  }
+  },
 }
 </script>

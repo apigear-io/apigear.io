@@ -1,5 +1,5 @@
 <template>
-  <v-card outlined class="my-4 ">
+  <v-card outlined class="my-4">
     <v-alert border="top" colored-border color="primary">
       <v-card-title>Feature Comparision</v-card-title>
       <v-card-text>
@@ -71,8 +71,8 @@ export default {
   data() {
     return {
       plans: [],
-      features: []
+      features: [],
     }
-  }
+  },
 }
 </script>

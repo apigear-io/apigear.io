@@ -74,7 +74,7 @@
           paragraph.name
         }}</v-card-subtitle>
         <v-card-text
-          ><span style="white-space: pre-wrap;">{{
+          ><span style="white-space: pre-wrap">{{
             paragraph.text
           }}</span></v-card-text
         >
@@ -89,8 +89,8 @@ export default {
   props: {
     body: {
       type: Object,
-      required: true
-    }
-  }
+      required: true,
+    },
+  },
 }
 </script>

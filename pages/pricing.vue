@@ -17,13 +17,13 @@ export default {
   name: 'PricingPage',
   components: {
     Pricing,
-    FeatureTable
+    FeatureTable,
   },
   async asyncData({ $content }) {
     const { body } = await $content('plans').fetch()
     return {
-      body
+      body,
     }
-  }
+  },
 }
 </script>
