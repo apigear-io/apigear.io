@@ -6,8 +6,8 @@ body:
       and cut down the overall time to market significantly.
       For device software a API simulation will unlock the teams productivity by eliminating the hardware dependencies.
     image: /features/playground.png
-    href: https://app.apigear.io/-/demos/playground
-    linktitle: Try it!
+    # href: https://app.apigear.io/-/demos/playground
+    # linktitle: Try it!
 
   - title: Reduce your software complexity
     text: >
@@ -15,8 +15,8 @@ body:
       Our smart blueprints create high-quality solutions which keep the software complexity low and the teams productivity high.
       The API driven workflow allows teams to stay focused on unique aspects of software.
     image: /design_notes.svg
-    href: https://docs.apigear.io/guide/start
-    linktitle: More...
+    # href: https://docs.apigear.io/guide/start
+    # linktitle: More...
 
   - title: Built-in data analytics
     text: >
@@ -24,5 +24,5 @@ body:
       During development data anlytics is used for validating software behavior and after
       deployment data analytics can be used to trace behavior of the product.
     image: /operating_system.svg
-    href: https://docs.apigear.io/sdk/intro/
-    linktitle: More...
+    # href: https://docs.apigear.io/sdk/intro/
+    # linktitle: More...
