@@ -37,7 +37,7 @@
         </v-btn>
       </v-item>
     </template>
-    <div>
+    <!-- <div>
       <v-btn
         color="primary"
         outlined
@@ -47,7 +47,7 @@
       >
         Get started for free
       </v-btn>
-    </div>
+    </div> -->
   </v-toolbar-items>
 </template>
 

@@ -11,21 +11,21 @@ body:
     - name: github
       href: https://github.com/apigear-io
   links:
-    - name: product
-      links:
-        - title: "Playground"
-          href: "https://app.apigear.io/-/demos/playground"
-        - title: "Login"
-          href: "https://app.apigear.io/-/login"
-        - title: "Register"
-          href: "https://app.apigear.io/-/register"
-        - title: "Documentation"
-          href: "https://docs.apigear.io/"
+    # - name: product
+    #   links:
+    # - title: "Playground"
+    #   href: "https://app.apigear.io/-/demos/playground"
+    # - title: "Login"
+    #   href: "https://app.apigear.io/-/login"
+    # - title: "Register"
+    #   href: "https://app.apigear.io/-/register"
+    # - title: "Documentation"
+    #   href: "https://docs.apigear.io/"
     - name: about
       links:
-      - title: "About us"
-        to: "/about"
-      - title: "Community"
-        href: "https://gitter.im/apigear-io/community"
-      - title: "Blog"
-        href: "https://medium.com/apigear"
+        - title: "About us"
+          to: "/about"
+        # - title: "Community"
+        #   href: "https://gitter.im/apigear-io/community"
+        # - title: "Blog"
+        #   href: "https://medium.com/apigear"

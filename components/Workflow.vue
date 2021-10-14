@@ -4,7 +4,7 @@
       <v-card flat>
         <v-card-title class="text-h5">{{ body.title }}</v-card-title>
         <v-card-text>{{ body.text }}</v-card-text>
-        <v-card-actions>
+        <!-- <v-card-actions>
           <v-btn-toggle>
             <v-btn
               outlined
@@ -15,7 +15,7 @@
               >Read More</v-btn
             >
           </v-btn-toggle>
-        </v-card-actions>
+        </v-card-actions> -->
       </v-card>
     </v-col>
     <v-col cols="10" sm="5" align-self="center">
