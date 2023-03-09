@@ -103,15 +103,15 @@ const config = {
             items: [
               {
                 label: 'Introduction',
-                href: 'https://docs.apigear.io/intro',
+                href: 'https://docs.apigear.io/docs/intro',
               },
               {
                 label: 'Getting Started',
-                href: 'https://docs.apigear.io/start/first_steps',
+                href: 'https://docs.apigear.io/docs/start/first_steps',
               },
               {
                 label: 'Installation',
-                href: 'https://docs.apigear.io/start/install',
+                href: 'https://docs.apigear.io/docs/start/install',
               },
             ],
           },
@@ -124,7 +124,7 @@ const config = {
               },
               {
                 label: 'Help',
-                href: 'https://docs.apigear.io/community/help',
+                href: 'https://docs.apigear.io/docs/community/help',
               },
             ],
           },

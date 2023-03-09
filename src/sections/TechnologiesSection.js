@@ -7,7 +7,7 @@ const item = {
   action: 'View SDKs',
   imageDark: '/img/technologies_dark.png',
   imageLight: '/img/technologies_light.png',
-  link: 'https://docs.apigear-io/intro',
+  link: 'https://docs.apigear.io/docs/intro',
 };
 
 export default function TechnologiesSection() {
