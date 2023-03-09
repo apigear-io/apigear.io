@@ -4,7 +4,7 @@ import FeatureList from '../components/FeatureList';
 const items = [
   {
     title: 'Accelerate your integration story',
-    description: 'Ease your software integration using an API driven approach using an object model.',
+    description: 'Ease your software integration using an API driven approach based on an object model.',
     imageDark: '/img/accelerate_dark.png',
     imageLight: '/img/accelerate_light.png',
 
