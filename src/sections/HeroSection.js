@@ -8,7 +8,7 @@ export default function HeroSection() {
   const item = {
     title: siteConfig.title,
     tagline: siteConfig.tagline,
-    link: 'https://docs.apigear.io/docs/intro',
+    link: 'https://docs.apigear.io/intro',
     message: 'Get Started',
   };
   return (
