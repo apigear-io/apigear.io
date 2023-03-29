@@ -84,7 +84,12 @@ const config = {
             position: 'left'
           },
           {
-            label: 'Discussions',
+            label: 'Slack Discussions',
+            href: 'https://join.slack.com/t/apigear/shared_invite/zt-1s28cyfme-ohvlpZd3nUxHN0uRIFeKXw',
+            position: 'right',
+          },
+          {
+            label: 'Github Discussions',
             href: 'https://github.com/orgs/apigear-io/discussions',
             position: 'right',
           },
@@ -119,7 +124,11 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Discussions',
+                label: 'Slack Discussions',
+                href: 'https://join.slack.com/t/apigear/shared_invite/zt-1s28cyfme-ohvlpZd3nUxHN0uRIFeKXw',
+              },
+              {
+                label: 'Github Discussions',
                 href: 'https://github.com/orgs/apigear-io/discussions',
               },
               {
